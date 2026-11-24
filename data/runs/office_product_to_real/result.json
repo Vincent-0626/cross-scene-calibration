@@ -1,0 +1,9 @@
+{
+  "best_epoch": 5,
+  "source_validation_accuracy": 0.8813559322033898,
+  "target_test_n": 4327,
+  "target_accuracy": 0.6202911948232032,
+  "target_macro_f1": 0.605373704354153,
+  "target_ece_10_bins": 0.08263567988339984,
+  "correct": 2684
+}

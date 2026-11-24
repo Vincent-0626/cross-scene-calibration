@@ -1,0 +1,37 @@
+{
+  "data_loader_workers": 8,
+  "domain": "visda",
+  "method": "augmix",
+  "source_val_selection": "source validation accuracy, patience 5",
+  "temperature_fit": null,
+  "label_smoothing": 0,
+  "confidence_penalty_lambda": 0,
+  "source_only": true,
+  "target_previously_observed": "yes; exploratory comparison, not final held-out",
+  "seed": 2026,
+  "classes": [
+    "aeroplane",
+    "bicycle",
+    "bus",
+    "car",
+    "horse",
+    "knife",
+    "motorcycle",
+    "person",
+    "plant",
+    "skateboard",
+    "train",
+    "truck"
+  ],
+  "counts": {
+    "train": 121837,
+    "val": 30560,
+    "target": 55388
+  },
+  "max_epochs": 30,
+  "patience": 5,
+  "optimizer": "AdamW lr=0.0001 weight_decay=0.01",
+  "scheduler": "cosine T_max=30",
+  "batch_size": 32,
+  "baseline_checkpoint": "/root/cross_scene_20261120/visda2017/runs/source_only_30/best.pt"
+}

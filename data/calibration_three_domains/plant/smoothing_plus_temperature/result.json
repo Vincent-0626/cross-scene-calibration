@@ -1,0 +1,27 @@
+{
+  "domain": "plant",
+  "method": "smoothing_plus_temperature",
+  "temperature": 0.5329608743245855,
+  "fit": "source-domain validation NLL only",
+  "validation": {
+    "n": 5781,
+    "correct": 5743,
+    "accuracy": 0.9934267427780661,
+    "mean_confidence": 0.9947574285335169,
+    "ece": 0.0023408753539493595,
+    "nll": 0.023443525481786465,
+    "high_confidence": 5713,
+    "high_confidence_wrong": 18
+  },
+  "test": {
+    "n": 452,
+    "correct": 112,
+    "accuracy": 0.24778761061946902,
+    "mean_confidence": 0.8206337549618988,
+    "ece": 0.5728461443424296,
+    "nll": 4.748725582928757,
+    "high_confidence": 240,
+    "high_confidence_wrong": 162
+  },
+  "warning": "exploratory; target test previously observed; validation also used for model selection"
+}

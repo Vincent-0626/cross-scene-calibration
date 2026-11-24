@@ -1,0 +1,16 @@
+{
+  "units": "Accuracy, ECE, risk and coverage saved as proportions; multiply by 100 for percentages. NLL and Brier are unitless scores, lower is better.",
+  "binning": "Equal-width bins [i/M,(i+1)/M), with last bin including confidence 1. Empty bins contribute zero and are retained as empty.",
+  "ece_bin_counts": [
+    5,
+    10,
+    15,
+    20
+  ],
+  "three_seed_sd": "Sample standard deviation, ddof=1; compute from unrounded per-run metrics.",
+  "top20": "ceil(n*0.20); stable descending confidence order; each model selects its own subset.",
+  "risk_coverage": "All ranking cutoffs used for AURC; points at 1%-100% coverage exported for plotting; stable order resolves exact ties.",
+  "data_reuse": "Previously observed target sets, exploratory results; no new independent test set.",
+  "prediction_verification": "Recomputed accuracy, ECE and NLL must match saved run results within 5e-7.",
+  "local_compute": "Only saved logits and metadata are analyzed. No model, GPU inference or retraining is used locally."
+}

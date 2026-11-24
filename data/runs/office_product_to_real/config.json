@@ -1,0 +1,23 @@
+{
+  "model": "torchvision ResNet50, ImageNet1K_V1 initialization",
+  "source": "Office-Home Product",
+  "target": "Office-Home Real World",
+  "classes": 65,
+  "seed": 42,
+  "batch_size": 32,
+  "max_epochs": 30,
+  "early_stopping_patience": 5,
+  "early_stopping_metric": "source validation accuracy",
+  "optimizer": "AdamW",
+  "learning_rate": 0.0001,
+  "weight_decay": 0.01,
+  "lr_scheduler": "cosine T_max=30",
+  "input": "224x224; training RandomResizedCrop scale 0.8-1, horizontal flip; evaluation Resize256 CenterCrop224; ImageNet normalization",
+  "target_policy": "all Real World except exact source duplicates and files with conflicting labels; no target labels or results used to select checkpoint",
+  "counts": {
+    "train": 3538,
+    "val": 885,
+    "test": 4327,
+    "excluded_cross_domain_duplicates": 0
+  }
+}

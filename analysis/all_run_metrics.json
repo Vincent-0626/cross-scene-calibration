@@ -1,0 +1,5408 @@
+[
+  {
+    "domain": "plant",
+    "method": "baseline",
+    "seed": 42,
+    "n": 452,
+    "classes_observed": 27,
+    "correct": 125,
+    "accuracy": 0.27654867256637167,
+    "mean_class_accuracy_observed": 0.2986050542165093,
+    "mean_confidence": 0.8295310691869061,
+    "ece": 0.5529823966205345,
+    "nll": 6.738512242267532,
+    "brier": 1.2327072113473037,
+    "high_conf_count": 233,
+    "high_conf_wrong": 154,
+    "high_conf_coverage": 0.5154867256637168,
+    "high_conf_risk": 0.6609442060085837,
+    "top20_count": 91,
+    "top20_wrong": 47,
+    "top20_risk": 0.5164835164835165,
+    "aurc": 0.6103400297201196,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 2,
+        "accuracy": 0.0,
+        "confidence": 0.2969583187476986
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 10,
+        "accuracy": 0.1,
+        "confidence": 0.3600497384628637
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 20,
+        "accuracy": 0.15,
+        "confidence": 0.45211856041708803
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 45,
+        "accuracy": 0.26666666666666666,
+        "confidence": 0.5513596203776605
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 39,
+        "accuracy": 0.1282051282051282,
+        "confidence": 0.6504305881043952
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 45,
+        "accuracy": 0.1111111111111111,
+        "confidence": 0.7489819119444285
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 58,
+        "accuracy": 0.3448275862068966,
+        "confidence": 0.8562533545932003
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 233,
+        "accuracy": 0.33905579399141633,
+        "confidence": 0.979254942425085
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\calibration_three_domains\\plant\\temperature\\logits.npz"
+  },
+  {
+    "domain": "plant",
+    "method": "temperature",
+    "seed": 42,
+    "n": 452,
+    "classes_observed": 27,
+    "correct": 125,
+    "accuracy": 0.27654867256637167,
+    "mean_class_accuracy_observed": 0.2986050542165093,
+    "mean_confidence": 0.7975022121318476,
+    "ece": 0.5209535395654759,
+    "nll": 5.839553711798439,
+    "brier": 1.194821030511176,
+    "high_conf_count": 204,
+    "high_conf_wrong": 128,
+    "high_conf_coverage": 0.45132743362831856,
+    "high_conf_risk": 0.6274509803921569,
+    "top20_count": 91,
+    "top20_wrong": 47,
+    "top20_risk": 0.5164835164835165,
+    "aurc": 0.608999031773449,
+    "temperature": 1.1696418192820757,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 4,
+        "accuracy": 0.0,
+        "confidence": 0.2754988691955179
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 14,
+        "accuracy": 0.2857142857142857,
+        "confidence": 0.35294458315533445
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 29,
+        "accuracy": 0.034482758620689655,
+        "confidence": 0.45954051940476104
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 53,
+        "accuracy": 0.2830188679245283,
+        "confidence": 0.5477192731263144
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 44,
+        "accuracy": 0.06818181818181818,
+        "confidence": 0.6562922563645018
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 44,
+        "accuracy": 0.29545454545454547,
+        "confidence": 0.7511790887393787
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 60,
+        "accuracy": 0.21666666666666667,
+        "confidence": 0.8510382787906677
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 204,
+        "accuracy": 0.37254901960784315,
+        "confidence": 0.975886998981347
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\calibration_three_domains\\plant\\temperature\\logits.npz"
+  },
+  {
+    "domain": "plant",
+    "method": "label_smoothing",
+    "seed": 42,
+    "n": 452,
+    "classes_observed": 27,
+    "correct": 112,
+    "accuracy": 0.24778761061946902,
+    "mean_class_accuracy_observed": 0.28761092947109457,
+    "mean_confidence": 0.5674329851057248,
+    "ece": 0.3196453744862557,
+    "nll": 3.0642901743326094,
+    "brier": 1.0054609916968467,
+    "high_conf_count": 34,
+    "high_conf_wrong": 16,
+    "high_conf_coverage": 0.0752212389380531,
+    "high_conf_risk": 0.47058823529411764,
+    "top20_count": 91,
+    "top20_wrong": 54,
+    "top20_risk": 0.5934065934065934,
+    "aurc": 0.6349156112084138,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 15,
+        "accuracy": 0.06666666666666667,
+        "confidence": 0.1655650533625624
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 55,
+        "accuracy": 0.09090909090909091,
+        "confidence": 0.26035968541545823
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 59,
+        "accuracy": 0.13559322033898305,
+        "confidence": 0.35327889622884984
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 60,
+        "accuracy": 0.26666666666666666,
+        "confidence": 0.44535188372794793
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 54,
+        "accuracy": 0.2037037037037037,
+        "confidence": 0.5537119109507415
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 57,
+        "accuracy": 0.24561403508771928,
+        "confidence": 0.6500533430302976
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 63,
+        "accuracy": 0.31746031746031744,
+        "confidence": 0.7484400561991936
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 55,
+        "accuracy": 0.34545454545454546,
+        "confidence": 0.847351166737105
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 34,
+        "accuracy": 0.5294117647058824,
+        "confidence": 0.9235988650930276
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\calibration_three_domains\\plant\\label_smoothing\\logits.npz"
+  },
+  {
+    "domain": "plant",
+    "method": "confidence_penalty",
+    "seed": 42,
+    "n": 452,
+    "classes_observed": 27,
+    "correct": 121,
+    "accuracy": 0.2676991150442478,
+    "mean_class_accuracy_observed": 0.29662734925892814,
+    "mean_confidence": 0.7794991016815848,
+    "ece": 0.5214810939148279,
+    "nll": 5.477079782544654,
+    "brier": 1.1758936842814252,
+    "high_conf_count": 201,
+    "high_conf_wrong": 125,
+    "high_conf_coverage": 0.4446902654867257,
+    "high_conf_risk": 0.6218905472636815,
+    "top20_count": 91,
+    "top20_wrong": 49,
+    "top20_risk": 0.5384615384615384,
+    "aurc": 0.6230131921827166,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 3,
+        "accuracy": 1.0,
+        "confidence": 0.2706899184290271
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 23,
+        "accuracy": 0.0,
+        "confidence": 0.35747786400410775
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 38,
+        "accuracy": 0.13157894736842105,
+        "confidence": 0.4451575404773515
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 48,
+        "accuracy": 0.10416666666666667,
+        "confidence": 0.5517512558521979
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 42,
+        "accuracy": 0.2619047619047619,
+        "confidence": 0.6457945996167438
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 43,
+        "accuracy": 0.11627906976744186,
+        "confidence": 0.7450752168802466
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 54,
+        "accuracy": 0.2962962962962963,
+        "confidence": 0.8539295460601766
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 201,
+        "accuracy": 0.3781094527363184,
+        "confidence": 0.9682869826698833
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\calibration_three_domains\\plant\\confidence_penalty\\logits.npz"
+  },
+  {
+    "domain": "plant",
+    "method": "augmix",
+    "seed": 42,
+    "n": 452,
+    "classes_observed": 27,
+    "correct": 116,
+    "accuracy": 0.25663716814159293,
+    "mean_class_accuracy_observed": 0.2951351242114916,
+    "mean_confidence": 0.7875295571729508,
+    "ece": 0.5308923890313578,
+    "nll": 6.738813489998968,
+    "brier": 1.2095391908449975,
+    "high_conf_count": 208,
+    "high_conf_wrong": 137,
+    "high_conf_coverage": 0.46017699115044247,
+    "high_conf_risk": 0.6586538461538461,
+    "top20_count": 91,
+    "top20_wrong": 47,
+    "top20_risk": 0.5164835164835165,
+    "aurc": 0.6416854358273981,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 6,
+        "accuracy": 0.0,
+        "confidence": 0.2579575403062843
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 21,
+        "accuracy": 0.14285714285714285,
+        "confidence": 0.36101906486571317
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 26,
+        "accuracy": 0.15384615384615385,
+        "confidence": 0.4619755004099227
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 57,
+        "accuracy": 0.17543859649122806,
+        "confidence": 0.5435519545777923
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 42,
+        "accuracy": 0.07142857142857142,
+        "confidence": 0.6465117662897795
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 45,
+        "accuracy": 0.24444444444444444,
+        "confidence": 0.7530535330179458
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 47,
+        "accuracy": 0.2978723404255319,
+        "confidence": 0.8485249437681748
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 208,
+        "accuracy": 0.34134615384615385,
+        "confidence": 0.9755712225455836
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\plant\\augmix\\logits.npz"
+  },
+  {
+    "domain": "plant",
+    "method": "dac",
+    "seed": 42,
+    "n": 452,
+    "classes_observed": 27,
+    "correct": 125,
+    "accuracy": 0.27654867256637167,
+    "mean_class_accuracy_observed": 0.2986050542165093,
+    "mean_confidence": 0.48636381849688964,
+    "ece": 0.21314419865152462,
+    "nll": 3.201968644299146,
+    "brier": 0.9461718249355872,
+    "high_conf_count": 44,
+    "high_conf_wrong": 21,
+    "high_conf_coverage": 0.09734513274336283,
+    "high_conf_risk": 0.4772727272727273,
+    "top20_count": 91,
+    "top20_wrong": 51,
+    "top20_risk": 0.5604395604395604,
+    "aurc": 0.6132373590148614,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 3,
+        "accuracy": 0.3333333333333333,
+        "confidence": 0.08254469501749352
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 47,
+        "accuracy": 0.10638297872340426,
+        "confidence": 0.16471451246036528
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 90,
+        "accuracy": 0.18888888888888888,
+        "confidence": 0.24941943454192478
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 58,
+        "accuracy": 0.2413793103448276,
+        "confidence": 0.34816361151732533
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 65,
+        "accuracy": 0.2153846153846154,
+        "confidence": 0.4529118593587195
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 48,
+        "accuracy": 0.3541666666666667,
+        "confidence": 0.5463472270475485
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 41,
+        "accuracy": 0.3170731707317073,
+        "confidence": 0.6517176155355977
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 29,
+        "accuracy": 0.3793103448275862,
+        "confidence": 0.7549529694818279
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 27,
+        "accuracy": 0.37037037037037035,
+        "confidence": 0.8391997662878715
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 44,
+        "accuracy": 0.5227272727272727,
+        "confidence": 0.9606727594277774
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\plant\\dac\\logits.npz"
+  },
+  {
+    "domain": "plant",
+    "method": "ls_entropy",
+    "seed": 42,
+    "n": 452,
+    "classes_observed": 27,
+    "correct": 149,
+    "accuracy": 0.32964601769911506,
+    "mean_class_accuracy_observed": 0.3329646713031646,
+    "mean_confidence": 0.5908244314372256,
+    "ece": 0.2611784137381105,
+    "nll": 2.9911258081679732,
+    "brier": 0.9461029879328359,
+    "high_conf_count": 48,
+    "high_conf_wrong": 24,
+    "high_conf_coverage": 0.10619469026548672,
+    "high_conf_risk": 0.5,
+    "top20_count": 91,
+    "top20_wrong": 46,
+    "top20_risk": 0.5054945054945055,
+    "aurc": 0.5795435545576892,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 19,
+        "accuracy": 0.05263157894736842,
+        "confidence": 0.16783509133087374
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 37,
+        "accuracy": 0.21621621621621623,
+        "confidence": 0.2622238659261665
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 62,
+        "accuracy": 0.25806451612903225,
+        "confidence": 0.34462352838087523
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 60,
+        "accuracy": 0.23333333333333334,
+        "confidence": 0.44602669885549656
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 37,
+        "accuracy": 0.2972972972972973,
+        "confidence": 0.538679686874106
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 61,
+        "accuracy": 0.3442622950819672,
+        "confidence": 0.6493144215580887
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 64,
+        "accuracy": 0.328125,
+        "confidence": 0.7453759635858521
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 64,
+        "accuracy": 0.515625,
+        "confidence": 0.843898121513879
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 48,
+        "accuracy": 0.5,
+        "confidence": 0.9329242285074795
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\plant\\ls_entropy\\logits.npz"
+  },
+  {
+    "domain": "plant",
+    "method": "alis",
+    "seed": 42,
+    "n": 452,
+    "classes_observed": 27,
+    "correct": 122,
+    "accuracy": 0.26991150442477874,
+    "mean_class_accuracy_observed": 0.2936989423831529,
+    "mean_confidence": 0.7430192191597705,
+    "ece": 0.4731077147349919,
+    "nll": 4.323929711066978,
+    "brier": 1.1338090754250856,
+    "high_conf_count": 176,
+    "high_conf_wrong": 100,
+    "high_conf_coverage": 0.3893805309734513,
+    "high_conf_risk": 0.5681818181818182,
+    "top20_count": 91,
+    "top20_wrong": 54,
+    "top20_risk": 0.5934065934065934,
+    "aurc": 0.6310535402847622,
+    "temperature": 1.2203782043691798,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 5,
+        "accuracy": 0.0,
+        "confidence": 0.18304257877101304
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 16,
+        "accuracy": 0.0625,
+        "confidence": 0.25253008474766236
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 34,
+        "accuracy": 0.029411764705882353,
+        "confidence": 0.3524013528166008
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 40,
+        "accuracy": 0.15,
+        "confidence": 0.4455678698626281
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 39,
+        "accuracy": 0.1794871794871795,
+        "confidence": 0.5437115315230701
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 48,
+        "accuracy": 0.20833333333333334,
+        "confidence": 0.649862107648262
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 30,
+        "accuracy": 0.26666666666666666,
+        "confidence": 0.7443850647789496
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 64,
+        "accuracy": 0.203125,
+        "confidence": 0.8523162557545697
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 176,
+        "accuracy": 0.4318181818181818,
+        "confidence": 0.9761744818860901
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\plant\\alis\\logits.npz"
+  },
+  {
+    "domain": "plant",
+    "method": "smoothing_plus_temperature",
+    "seed": 42,
+    "n": 452,
+    "classes_observed": 27,
+    "correct": 112,
+    "accuracy": 0.24778761061946902,
+    "mean_class_accuracy_observed": 0.28761092947109457,
+    "mean_confidence": 0.8206337549618987,
+    "ece": 0.5728461443424298,
+    "nll": 4.748725582928757,
+    "brier": 1.2529724917079887,
+    "high_conf_count": 240,
+    "high_conf_wrong": 162,
+    "high_conf_coverage": 0.5309734513274337,
+    "high_conf_risk": 0.675,
+    "top20_count": 91,
+    "top20_wrong": 55,
+    "top20_risk": 0.6043956043956044,
+    "aurc": 0.6356885638420834,
+    "temperature": 0.5329608743245855,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 8,
+        "accuracy": 0.0,
+        "confidence": 0.2591809011249301
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 9,
+        "accuracy": 0.2222222222222222,
+        "confidence": 0.347875621749563
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 28,
+        "accuracy": 0.03571428571428571,
+        "confidence": 0.46465134462549
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 42,
+        "accuracy": 0.11904761904761904,
+        "confidence": 0.547751988790049
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 33,
+        "accuracy": 0.21212121212121213,
+        "confidence": 0.6545943572694699
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 44,
+        "accuracy": 0.18181818181818182,
+        "confidence": 0.7455677707897863
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 48,
+        "accuracy": 0.22916666666666666,
+        "confidence": 0.8561197095119314
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 240,
+        "accuracy": 0.325,
+        "confidence": 0.9758581937421713
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\calibration_three_domains\\plant\\label_smoothing\\logits.npz"
+  },
+  {
+    "domain": "plant",
+    "method": "baseline",
+    "seed": 7,
+    "n": 452,
+    "classes_observed": 27,
+    "correct": 99,
+    "accuracy": 0.21902654867256638,
+    "mean_class_accuracy_observed": 0.2682624918177034,
+    "mean_confidence": 0.7452837747908435,
+    "ece": 0.5262572261182772,
+    "nll": 5.385648710899244,
+    "brier": 1.2287551973341786,
+    "high_conf_count": 165,
+    "high_conf_wrong": 109,
+    "high_conf_coverage": 0.36504424778761063,
+    "high_conf_risk": 0.6606060606060606,
+    "top20_count": 91,
+    "top20_wrong": 56,
+    "top20_risk": 0.6153846153846154,
+    "aurc": 0.6736483191953097,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 16,
+        "accuracy": 0.125,
+        "confidence": 0.2542692922560158
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 28,
+        "accuracy": 0.10714285714285714,
+        "confidence": 0.36004672593559134
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 41,
+        "accuracy": 0.07317073170731707,
+        "confidence": 0.4517878349463157
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 45,
+        "accuracy": 0.17777777777777778,
+        "confidence": 0.5499478717789684
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 59,
+        "accuracy": 0.13559322033898305,
+        "confidence": 0.6467266506799891
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 35,
+        "accuracy": 0.22857142857142856,
+        "confidence": 0.7493646176386308
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 63,
+        "accuracy": 0.1746031746031746,
+        "confidence": 0.8587073094602693
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 165,
+        "accuracy": 0.3393939393939394,
+        "confidence": 0.9755424196172577
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\baseline\\seed_7\\logits.npz"
+  },
+  {
+    "domain": "plant",
+    "method": "augmix",
+    "seed": 7,
+    "n": 452,
+    "classes_observed": 27,
+    "correct": 109,
+    "accuracy": 0.2411504424778761,
+    "mean_class_accuracy_observed": 0.2879051823840265,
+    "mean_confidence": 0.8031256013463947,
+    "ece": 0.5619751588685187,
+    "nll": 7.326455818540495,
+    "brier": 1.2522394975094475,
+    "high_conf_count": 216,
+    "high_conf_wrong": 151,
+    "high_conf_coverage": 0.4778761061946903,
+    "high_conf_risk": 0.6990740740740741,
+    "top20_count": 91,
+    "top20_wrong": 56,
+    "top20_risk": 0.6153846153846154,
+    "aurc": 0.6749770974141908,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 5,
+        "accuracy": 0.0,
+        "confidence": 0.2793290869038612
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 15,
+        "accuracy": 0.2,
+        "confidence": 0.3435819150920041
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 32,
+        "accuracy": 0.09375,
+        "confidence": 0.45508597853429655
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 41,
+        "accuracy": 0.21951219512195122,
+        "confidence": 0.5545802233070946
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 41,
+        "accuracy": 0.24390243902439024,
+        "confidence": 0.6518916335312563
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 48,
+        "accuracy": 0.10416666666666667,
+        "confidence": 0.7459829048108434
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 54,
+        "accuracy": 0.25925925925925924,
+        "confidence": 0.852515616785074
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 216,
+        "accuracy": 0.30092592592592593,
+        "confidence": 0.9749596179022533
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\augmix\\seed_7\\logits.npz"
+  },
+  {
+    "domain": "plant",
+    "method": "ls_entropy",
+    "seed": 7,
+    "n": 452,
+    "classes_observed": 27,
+    "correct": 142,
+    "accuracy": 0.3141592920353982,
+    "mean_class_accuracy_observed": 0.3282230435352211,
+    "mean_confidence": 0.6125893501518541,
+    "ece": 0.298430058116456,
+    "nll": 3.0785997676214785,
+    "brier": 0.98025625439152,
+    "high_conf_count": 66,
+    "high_conf_wrong": 36,
+    "high_conf_coverage": 0.14601769911504425,
+    "high_conf_risk": 0.5454545454545454,
+    "top20_count": 91,
+    "top20_wrong": 49,
+    "top20_risk": 0.5384615384615384,
+    "aurc": 0.6099982170977039,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 14,
+        "accuracy": 0.14285714285714285,
+        "confidence": 0.16625719540335804
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 38,
+        "accuracy": 0.15789473684210525,
+        "confidence": 0.2534898294998399
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 57,
+        "accuracy": 0.2631578947368421,
+        "confidence": 0.349792255198754
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 53,
+        "accuracy": 0.2830188679245283,
+        "confidence": 0.4508020520579364
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 53,
+        "accuracy": 0.24528301886792453,
+        "confidence": 0.5449676717732822
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 55,
+        "accuracy": 0.32727272727272727,
+        "confidence": 0.6568588634944061
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 50,
+        "accuracy": 0.28,
+        "confidence": 0.7484334717437409
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 66,
+        "accuracy": 0.4393939393939394,
+        "confidence": 0.8566361596413932
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 66,
+        "accuracy": 0.45454545454545453,
+        "confidence": 0.9413533407106407
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\ls_entropy\\seed_7\\logits.npz"
+  },
+  {
+    "domain": "plant",
+    "method": "alis",
+    "seed": 7,
+    "n": 452,
+    "classes_observed": 27,
+    "correct": 112,
+    "accuracy": 0.24778761061946902,
+    "mean_class_accuracy_observed": 0.2805217319278207,
+    "mean_confidence": 0.6623940522288534,
+    "ece": 0.4146064416093843,
+    "nll": 3.713068155136251,
+    "brier": 1.084993574034037,
+    "high_conf_count": 124,
+    "high_conf_wrong": 75,
+    "high_conf_coverage": 0.2743362831858407,
+    "high_conf_risk": 0.6048387096774194,
+    "top20_count": 91,
+    "top20_wrong": 52,
+    "top20_risk": 0.5714285714285714,
+    "aurc": 0.6403058445568572,
+    "temperature": 1.1340173790544552,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 10,
+        "accuracy": 0.0,
+        "confidence": 0.1551446704075607
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 36,
+        "accuracy": 0.05555555555555555,
+        "confidence": 0.25666430352806124
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 39,
+        "accuracy": 0.1794871794871795,
+        "confidence": 0.3535945859015813
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 56,
+        "accuracy": 0.16071428571428573,
+        "confidence": 0.45208960974812434
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 56,
+        "accuracy": 0.17857142857142858,
+        "confidence": 0.5496891468955499
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 39,
+        "accuracy": 0.28205128205128205,
+        "confidence": 0.6504287824821309
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 47,
+        "accuracy": 0.1702127659574468,
+        "confidence": 0.7461075667398663
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 45,
+        "accuracy": 0.35555555555555557,
+        "confidence": 0.8545351093749705
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 124,
+        "accuracy": 0.3951612903225806,
+        "confidence": 0.9663959086991771
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\alis\\seed_7\\logits.npz"
+  },
+  {
+    "domain": "plant",
+    "method": "baseline",
+    "seed": 2026,
+    "n": 452,
+    "classes_observed": 27,
+    "correct": 134,
+    "accuracy": 0.29646017699115046,
+    "mean_class_accuracy_observed": 0.3129909826633253,
+    "mean_confidence": 0.8005094184121881,
+    "ece": 0.5040492414210377,
+    "nll": 5.155188015996009,
+    "brier": 1.1598970475510193,
+    "high_conf_count": 212,
+    "high_conf_wrong": 125,
+    "high_conf_coverage": 0.4690265486725664,
+    "high_conf_risk": 0.589622641509434,
+    "top20_count": 91,
+    "top20_wrong": 36,
+    "top20_risk": 0.3956043956043956,
+    "aurc": 0.5504386232252974,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 7,
+        "accuracy": 0.0,
+        "confidence": 0.261810292511393
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 15,
+        "accuracy": 0.26666666666666666,
+        "confidence": 0.3781559728297747
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 33,
+        "accuracy": 0.15151515151515152,
+        "confidence": 0.4535335818860812
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 42,
+        "accuracy": 0.23809523809523808,
+        "confidence": 0.5506175707336406
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 40,
+        "accuracy": 0.2,
+        "confidence": 0.650062846422622
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 45,
+        "accuracy": 0.2,
+        "confidence": 0.7494078624332188
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 58,
+        "accuracy": 0.1896551724137931,
+        "confidence": 0.860386497315944
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 212,
+        "accuracy": 0.41037735849056606,
+        "confidence": 0.9745491264080405
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\baseline\\seed_2026\\logits.npz"
+  },
+  {
+    "domain": "plant",
+    "method": "augmix",
+    "seed": 2026,
+    "n": 452,
+    "classes_observed": 27,
+    "correct": 111,
+    "accuracy": 0.24557522123893805,
+    "mean_class_accuracy_observed": 0.2930891787186937,
+    "mean_confidence": 0.8078221608349859,
+    "ece": 0.5622469395960479,
+    "nll": 6.704835525657701,
+    "brier": 1.2387743719367548,
+    "high_conf_count": 214,
+    "high_conf_wrong": 152,
+    "high_conf_coverage": 0.47345132743362833,
+    "high_conf_risk": 0.7102803738317757,
+    "top20_count": 91,
+    "top20_wrong": 60,
+    "top20_risk": 0.6593406593406593,
+    "aurc": 0.6746963403230835,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 6,
+        "accuracy": 0.0,
+        "confidence": 0.27232995242642116
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 17,
+        "accuracy": 0.11764705882352941,
+        "confidence": 0.3620077338412401
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 27,
+        "accuracy": 0.07407407407407407,
+        "confidence": 0.4567194560915653
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 35,
+        "accuracy": 0.11428571428571428,
+        "confidence": 0.5414338493901958
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 41,
+        "accuracy": 0.17073170731707318,
+        "confidence": 0.6483319806460346
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 42,
+        "accuracy": 0.30952380952380953,
+        "confidence": 0.750575133690855
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 70,
+        "accuracy": 0.3,
+        "confidence": 0.8524318876717399
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 214,
+        "accuracy": 0.2897196261682243,
+        "confidence": 0.9733172733920552
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\augmix\\seed_2026\\logits.npz"
+  },
+  {
+    "domain": "plant",
+    "method": "ls_entropy",
+    "seed": 2026,
+    "n": 452,
+    "classes_observed": 27,
+    "correct": 144,
+    "accuracy": 0.3185840707964602,
+    "mean_class_accuracy_observed": 0.3233910124390001,
+    "mean_confidence": 0.5354715848635024,
+    "ece": 0.21919957106194668,
+    "nll": 2.8153697500150727,
+    "brier": 0.9019382357951595,
+    "high_conf_count": 38,
+    "high_conf_wrong": 15,
+    "high_conf_coverage": 0.084070796460177,
+    "high_conf_risk": 0.39473684210526316,
+    "top20_count": 91,
+    "top20_wrong": 40,
+    "top20_risk": 0.43956043956043955,
+    "aurc": 0.5384134813858023,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 20,
+        "accuracy": 0.2,
+        "confidence": 0.17387375595758026
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 65,
+        "accuracy": 0.2153846153846154,
+        "confidence": 0.25461399878280777
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 79,
+        "accuracy": 0.17721518987341772,
+        "confidence": 0.3508598444432136
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 62,
+        "accuracy": 0.22580645161290322,
+        "confidence": 0.4488285205322794
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 55,
+        "accuracy": 0.32727272727272727,
+        "confidence": 0.5517629367505316
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 45,
+        "accuracy": 0.35555555555555557,
+        "confidence": 0.6476528554646076
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 39,
+        "accuracy": 0.41025641025641024,
+        "confidence": 0.7496371487041437
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 49,
+        "accuracy": 0.5102040816326531,
+        "confidence": 0.8528872527281504
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 38,
+        "accuracy": 0.6052631578947368,
+        "confidence": 0.9458371351033226
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\ls_entropy\\seed_2026\\logits.npz"
+  },
+  {
+    "domain": "plant",
+    "method": "alis",
+    "seed": 2026,
+    "n": 452,
+    "classes_observed": 27,
+    "correct": 112,
+    "accuracy": 0.24778761061946902,
+    "mean_class_accuracy_observed": 0.2791593191618991,
+    "mean_confidence": 0.7326040966140148,
+    "ece": 0.48481648599454585,
+    "nll": 4.602579747246281,
+    "brier": 1.1785777614508508,
+    "high_conf_count": 183,
+    "high_conf_wrong": 117,
+    "high_conf_coverage": 0.40486725663716816,
+    "high_conf_risk": 0.639344262295082,
+    "top20_count": 91,
+    "top20_wrong": 52,
+    "top20_risk": 0.5714285714285714,
+    "aurc": 0.6407193430283581,
+    "temperature": 1.1451763583410017,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 1,
+        "accuracy": 0.0,
+        "confidence": 0.08364654955258702
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 6,
+        "accuracy": 0.16666666666666666,
+        "confidence": 0.17970829687503911
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 30,
+        "accuracy": 0.13333333333333333,
+        "confidence": 0.25290312345731747
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 24,
+        "accuracy": 0.16666666666666666,
+        "confidence": 0.33645900536105744
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 45,
+        "accuracy": 0.2,
+        "confidence": 0.44903582837941797
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 36,
+        "accuracy": 0.1111111111111111,
+        "confidence": 0.5442690352865621
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 41,
+        "accuracy": 0.12195121951219512,
+        "confidence": 0.6474733560982223
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 43,
+        "accuracy": 0.13953488372093023,
+        "confidence": 0.7494529402140256
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 43,
+        "accuracy": 0.3023255813953488,
+        "confidence": 0.8573514663528582
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 183,
+        "accuracy": 0.36065573770491804,
+        "confidence": 0.9774521905822614
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\alis\\seed_2026\\logits.npz"
+  },
+  {
+    "domain": "office",
+    "method": "baseline",
+    "seed": 42,
+    "n": 4327,
+    "classes_observed": 65,
+    "correct": 2684,
+    "accuracy": 0.6202911948232032,
+    "mean_class_accuracy_observed": 0.6114348120212796,
+    "mean_confidence": 0.6982475601174546,
+    "ece": 0.08263550984264939,
+    "nll": 1.5196005696967378,
+    "brier": 0.5274084011110136,
+    "high_conf_count": 1706,
+    "high_conf_wrong": 181,
+    "high_conf_coverage": 0.394268546336954,
+    "high_conf_risk": 0.10609613130128957,
+    "top20_count": 866,
+    "top20_wrong": 40,
+    "top20_risk": 0.046189376443418015,
+    "aurc": 0.16586508430951621,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 12,
+        "accuracy": 0.0,
+        "confidence": 0.08692093012137558
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 218,
+        "accuracy": 0.1834862385321101,
+        "confidence": 0.1575923029294677
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 348,
+        "accuracy": 0.21551724137931033,
+        "confidence": 0.25069110752932705
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 352,
+        "accuracy": 0.36363636363636365,
+        "confidence": 0.3509134907128333
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 354,
+        "accuracy": 0.4096045197740113,
+        "confidence": 0.4531031708876419
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 314,
+        "accuracy": 0.5063694267515924,
+        "confidence": 0.5489937102071809
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 307,
+        "accuracy": 0.49185667752442996,
+        "confidence": 0.650447876569771
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 318,
+        "accuracy": 0.6037735849056604,
+        "confidence": 0.7482577283591847
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 398,
+        "accuracy": 0.6758793969849246,
+        "confidence": 0.8537837983930925
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 1706,
+        "accuracy": 0.8939038686987104,
+        "confidence": 0.9759290798898895
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\calibration_three_domains\\office\\temperature\\logits.npz"
+  },
+  {
+    "domain": "office",
+    "method": "temperature",
+    "seed": 42,
+    "n": 4327,
+    "classes_observed": 65,
+    "correct": 2684,
+    "accuracy": 0.6202911948232032,
+    "mean_class_accuracy_observed": 0.6114348120212796,
+    "mean_confidence": 0.6937466604681867,
+    "ece": 0.08082076037138478,
+    "nll": 1.5163692534030841,
+    "brier": 0.5265636922418958,
+    "high_conf_count": 1675,
+    "high_conf_wrong": 171,
+    "high_conf_coverage": 0.3871042292581465,
+    "high_conf_risk": 0.10208955223880598,
+    "top20_count": 866,
+    "top20_wrong": 41,
+    "top20_risk": 0.04734411085450346,
+    "aurc": 0.16594769219813166,
+    "temperature": 1.0120116572834659,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 13,
+        "accuracy": 0.0,
+        "confidence": 0.0866472745248948
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 233,
+        "accuracy": 0.18025751072961374,
+        "confidence": 0.15816313452614117
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 354,
+        "accuracy": 0.2175141242937853,
+        "confidence": 0.25163621758828825
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 346,
+        "accuracy": 0.3815028901734104,
+        "confidence": 0.3503270939735261
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 360,
+        "accuracy": 0.4166666666666667,
+        "confidence": 0.451406864687357
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 328,
+        "accuracy": 0.49390243902439024,
+        "confidence": 0.5502479207487667
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 292,
+        "accuracy": 0.5068493150684932,
+        "confidence": 0.6518622082035659
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 318,
+        "accuracy": 0.60062893081761,
+        "confidence": 0.74702236457047
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 408,
+        "accuracy": 0.6813725490196079,
+        "confidence": 0.8537713319085102
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 1675,
+        "accuracy": 0.897910447761194,
+        "confidence": 0.9757299163885184
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\calibration_three_domains\\office\\temperature\\logits.npz"
+  },
+  {
+    "domain": "office",
+    "method": "label_smoothing",
+    "seed": 42,
+    "n": 4327,
+    "classes_observed": 65,
+    "correct": 2781,
+    "accuracy": 0.6427085740697943,
+    "mean_class_accuracy_observed": 0.629738445755012,
+    "mean_confidence": 0.5483214222150894,
+    "ece": 0.09438715185470492,
+    "nll": 1.5317939881585412,
+    "brier": 0.5064826843210652,
+    "high_conf_count": 716,
+    "high_conf_wrong": 29,
+    "high_conf_coverage": 0.16547261382019876,
+    "high_conf_risk": 0.040502793296089384,
+    "top20_count": 866,
+    "top20_wrong": 44,
+    "top20_risk": 0.050808314087759814,
+    "aurc": 0.15599231941420885,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 104,
+        "accuracy": 0.14423076923076922,
+        "confidence": 0.08331146684866103
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 592,
+        "accuracy": 0.28209459459459457,
+        "confidence": 0.15303662187283593
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 525,
+        "accuracy": 0.4076190476190476,
+        "confidence": 0.25000134616547853
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 436,
+        "accuracy": 0.48394495412844035,
+        "confidence": 0.3498478227936057
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 346,
+        "accuracy": 0.6069364161849711,
+        "confidence": 0.44649553044502477
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 363,
+        "accuracy": 0.6418732782369146,
+        "confidence": 0.5504710926732266
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 342,
+        "accuracy": 0.7543859649122807,
+        "confidence": 0.6490680572353427
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 394,
+        "accuracy": 0.8401015228426396,
+        "confidence": 0.753403468571435
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 509,
+        "accuracy": 0.8939096267190569,
+        "confidence": 0.8539852698130479
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 716,
+        "accuracy": 0.9594972067039106,
+        "confidence": 0.9521384902904888
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\calibration_three_domains\\office\\label_smoothing\\logits.npz"
+  },
+  {
+    "domain": "office",
+    "method": "confidence_penalty",
+    "seed": 42,
+    "n": 4327,
+    "classes_observed": 65,
+    "correct": 2696,
+    "accuracy": 0.6230644788537093,
+    "mean_class_accuracy_observed": 0.6105026045059523,
+    "mean_confidence": 0.6625495463872019,
+    "ece": 0.050408027897642066,
+    "nll": 1.4714630846163608,
+    "brier": 0.5080984821210738,
+    "high_conf_count": 1508,
+    "high_conf_wrong": 97,
+    "high_conf_coverage": 0.348509359833603,
+    "high_conf_risk": 0.0643236074270557,
+    "top20_count": 866,
+    "top20_wrong": 29,
+    "top20_risk": 0.03348729792147806,
+    "aurc": 0.15497254755267717,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 22,
+        "accuracy": 0.22727272727272727,
+        "confidence": 0.08802780631564139
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 316,
+        "accuracy": 0.19936708860759494,
+        "confidence": 0.15661866550486128
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 391,
+        "accuracy": 0.26854219948849106,
+        "confidence": 0.25048610029074875
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 361,
+        "accuracy": 0.34349030470914127,
+        "confidence": 0.3477674584447869
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 368,
+        "accuracy": 0.41032608695652173,
+        "confidence": 0.44539366970914335
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 336,
+        "accuracy": 0.5059523809523809,
+        "confidence": 0.5502877367934265
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 303,
+        "accuracy": 0.528052805280528,
+        "confidence": 0.648917225674635
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 331,
+        "accuracy": 0.6344410876132931,
+        "confidence": 0.7508277626316509
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 391,
+        "accuracy": 0.7595907928388747,
+        "confidence": 0.8521234938301344
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 1508,
+        "accuracy": 0.9356763925729443,
+        "confidence": 0.9713606860431451
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\calibration_three_domains\\office\\confidence_penalty\\logits.npz"
+  },
+  {
+    "domain": "office",
+    "method": "augmix",
+    "seed": 42,
+    "n": 4327,
+    "classes_observed": 65,
+    "correct": 2672,
+    "accuracy": 0.617517910792697,
+    "mean_class_accuracy_observed": 0.6004204722122972,
+    "mean_confidence": 0.7621947530970112,
+    "ece": 0.14467684230431424,
+    "nll": 1.6479243450141616,
+    "brier": 0.5399670418941942,
+    "high_conf_count": 2071,
+    "high_conf_wrong": 253,
+    "high_conf_coverage": 0.47862260226484865,
+    "high_conf_risk": 0.12216320618058908,
+    "top20_count": 866,
+    "top20_wrong": 17,
+    "top20_risk": 0.019630484988452657,
+    "aurc": 0.152962960194143,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 1,
+        "accuracy": 0.0,
+        "confidence": 0.08847284982828779
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 70,
+        "accuracy": 0.14285714285714285,
+        "confidence": 0.16547915953918096
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 217,
+        "accuracy": 0.16129032258064516,
+        "confidence": 0.2531232949974967
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 267,
+        "accuracy": 0.2247191011235955,
+        "confidence": 0.35046034823887523
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 364,
+        "accuracy": 0.3131868131868132,
+        "confidence": 0.45045969769407584
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 342,
+        "accuracy": 0.3333333333333333,
+        "confidence": 0.550128763219769
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 318,
+        "accuracy": 0.46855345911949686,
+        "confidence": 0.6524681547360708
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 311,
+        "accuracy": 0.5209003215434084,
+        "confidence": 0.7506063059317694
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 366,
+        "accuracy": 0.5737704918032787,
+        "confidence": 0.8552491057826915
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 2071,
+        "accuracy": 0.8778367938194109,
+        "confidence": 0.9810661712167261
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\office\\augmix\\logits.npz"
+  },
+  {
+    "domain": "office",
+    "method": "dac",
+    "seed": 42,
+    "n": 4327,
+    "classes_observed": 65,
+    "correct": 2685,
+    "accuracy": 0.6205223018257453,
+    "mean_class_accuracy_observed": 0.6117306700094453,
+    "mean_confidence": 0.6777931452424071,
+    "ece": 0.06841994597509746,
+    "nll": 1.5086709068729616,
+    "brier": 0.5240142566463132,
+    "high_conf_count": 1588,
+    "high_conf_wrong": 154,
+    "high_conf_coverage": 0.3669979200369771,
+    "high_conf_risk": 0.09697732997481108,
+    "top20_count": 866,
+    "top20_wrong": 43,
+    "top20_risk": 0.049653579676674366,
+    "aurc": 0.16647473832190457,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 21,
+        "accuracy": 0.0,
+        "confidence": 0.08682672564492909
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 275,
+        "accuracy": 0.19272727272727272,
+        "confidence": 0.15693276602509487
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 375,
+        "accuracy": 0.25066666666666665,
+        "confidence": 0.2500372996880018
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 350,
+        "accuracy": 0.3914285714285714,
+        "confidence": 0.3513097673569219
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 366,
+        "accuracy": 0.4453551912568306,
+        "confidence": 0.4501961311379771
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 321,
+        "accuracy": 0.4766355140186916,
+        "confidence": 0.547367436600906
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 310,
+        "accuracy": 0.5193548387096775,
+        "confidence": 0.6512788878078445
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 322,
+        "accuracy": 0.6118012422360248,
+        "confidence": 0.7511799382037437
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 399,
+        "accuracy": 0.7343358395989975,
+        "confidence": 0.8521375768611871
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 1588,
+        "accuracy": 0.9030226700251889,
+        "confidence": 0.974088565475747
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\office\\dac\\logits.npz"
+  },
+  {
+    "domain": "office",
+    "method": "ls_entropy",
+    "seed": 42,
+    "n": 4327,
+    "classes_observed": 65,
+    "correct": 2923,
+    "accuracy": 0.6755257684307835,
+    "mean_class_accuracy_observed": 0.6628971290247071,
+    "mean_confidence": 0.5395460000011889,
+    "ece": 0.13597976842959458,
+    "nll": 1.4655064634666137,
+    "brier": 0.4705217779924325,
+    "high_conf_count": 614,
+    "high_conf_wrong": 14,
+    "high_conf_coverage": 0.1418996995608967,
+    "high_conf_risk": 0.02280130293159609,
+    "top20_count": 866,
+    "top20_wrong": 28,
+    "top20_risk": 0.03233256351039261,
+    "aurc": 0.1199423341721817,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 140,
+        "accuracy": 0.15714285714285714,
+        "confidence": 0.08344841685123444
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 644,
+        "accuracy": 0.29347826086956524,
+        "confidence": 0.1494881123022595
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 524,
+        "accuracy": 0.43320610687022904,
+        "confidence": 0.24822097988416533
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 420,
+        "accuracy": 0.5380952380952381,
+        "confidence": 0.34912941216411403
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 332,
+        "accuracy": 0.6626506024096386,
+        "confidence": 0.4503062121681288
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 284,
+        "accuracy": 0.704225352112676,
+        "confidence": 0.5496589868932548
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 318,
+        "accuracy": 0.8364779874213837,
+        "confidence": 0.6522139499868
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 361,
+        "accuracy": 0.8753462603878116,
+        "confidence": 0.7504191055554698
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 690,
+        "accuracy": 0.9521739130434783,
+        "confidence": 0.8573162115968829
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 614,
+        "accuracy": 0.9771986970684039,
+        "confidence": 0.9356709101537565
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\office\\ls_entropy\\logits.npz"
+  },
+  {
+    "domain": "office",
+    "method": "alis",
+    "seed": 42,
+    "n": 4327,
+    "classes_observed": 65,
+    "correct": 2796,
+    "accuracy": 0.646175179107927,
+    "mean_class_accuracy_observed": 0.6325529330338531,
+    "mean_confidence": 0.6478428929752434,
+    "ece": 0.05380795765470737,
+    "nll": 1.4691402926971306,
+    "brier": 0.4879726974704455,
+    "high_conf_count": 1559,
+    "high_conf_wrong": 99,
+    "high_conf_coverage": 0.36029581696325397,
+    "high_conf_risk": 0.06350224502886466,
+    "top20_count": 866,
+    "top20_wrong": 27,
+    "top20_risk": 0.03117782909930716,
+    "aurc": 0.14058464724706227,
+    "temperature": 1.010569134522176,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 54,
+        "accuracy": 0.09259259259259259,
+        "confidence": 0.08569341669285364
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 429,
+        "accuracy": 0.2517482517482518,
+        "confidence": 0.15129805292250606
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 402,
+        "accuracy": 0.3308457711442786,
+        "confidence": 0.2486090727398908
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 373,
+        "accuracy": 0.38873994638069703,
+        "confidence": 0.3492581524727529
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 323,
+        "accuracy": 0.5139318885448917,
+        "confidence": 0.4472016571115721
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 310,
+        "accuracy": 0.532258064516129,
+        "confidence": 0.549866486522663
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 251,
+        "accuracy": 0.6175298804780877,
+        "confidence": 0.6476642396026544
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 291,
+        "accuracy": 0.6769759450171822,
+        "confidence": 0.7524462225022593
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 335,
+        "accuracy": 0.7820895522388059,
+        "confidence": 0.8536735545679087
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 1559,
+        "accuracy": 0.9364977549711353,
+        "confidence": 0.9756618273554842
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\office\\alis\\logits.npz"
+  },
+  {
+    "domain": "office",
+    "method": "smoothing_plus_temperature",
+    "seed": 42,
+    "n": 4327,
+    "classes_observed": 65,
+    "correct": 2781,
+    "accuracy": 0.6427085740697943,
+    "mean_class_accuracy_observed": 0.629738445755012,
+    "mean_confidence": 0.704929275521549,
+    "ece": 0.06827624461652343,
+    "nll": 1.4754842249095383,
+    "brier": 0.49693143447674937,
+    "high_conf_count": 1708,
+    "high_conf_wrong": 149,
+    "high_conf_coverage": 0.39473076034203836,
+    "high_conf_risk": 0.08723653395784543,
+    "top20_count": 866,
+    "top20_wrong": 36,
+    "top20_risk": 0.04157043879907621,
+    "aurc": 0.15171124466951252,
+    "temperature": 0.7304871589801613,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 12,
+        "accuracy": 0.0,
+        "confidence": 0.09417501815964933
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 203,
+        "accuracy": 0.15763546798029557,
+        "confidence": 0.15862907415622396
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 332,
+        "accuracy": 0.2891566265060241,
+        "confidence": 0.24969527820187545
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 339,
+        "accuracy": 0.3480825958702065,
+        "confidence": 0.3486291099799608
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 337,
+        "accuracy": 0.3916913946587537,
+        "confidence": 0.45118052985880663
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 299,
+        "accuracy": 0.48494983277591974,
+        "confidence": 0.5467045570717971
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 335,
+        "accuracy": 0.5880597014925373,
+        "confidence": 0.6519849232673992
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 286,
+        "accuracy": 0.6118881118881119,
+        "confidence": 0.7510627167739481
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 476,
+        "accuracy": 0.6869747899159664,
+        "confidence": 0.8521349445442352
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 1708,
+        "accuracy": 0.9127634660421545,
+        "confidence": 0.9727549480339663
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\calibration_three_domains\\office\\label_smoothing\\logits.npz"
+  },
+  {
+    "domain": "office",
+    "method": "baseline",
+    "seed": 7,
+    "n": 4327,
+    "classes_observed": 65,
+    "correct": 2686,
+    "accuracy": 0.6207534088282874,
+    "mean_class_accuracy_observed": 0.6096321482319248,
+    "mean_confidence": 0.6736402801199055,
+    "ece": 0.05989179373296248,
+    "nll": 1.5032843180394506,
+    "brier": 0.5190421565095362,
+    "high_conf_count": 1542,
+    "high_conf_wrong": 134,
+    "high_conf_coverage": 0.35636699792003695,
+    "high_conf_risk": 0.08690012970168612,
+    "top20_count": 866,
+    "top20_wrong": 26,
+    "top20_risk": 0.03002309468822171,
+    "aurc": 0.16121750905465534,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 18,
+        "accuracy": 0.1111111111111111,
+        "confidence": 0.0911960237390845
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 289,
+        "accuracy": 0.20069204152249134,
+        "confidence": 0.16000029277991495
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 380,
+        "accuracy": 0.2578947368421053,
+        "confidence": 0.24990325594066412
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 372,
+        "accuracy": 0.3387096774193548,
+        "confidence": 0.35102710399462467
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 324,
+        "accuracy": 0.44135802469135804,
+        "confidence": 0.45049176012182823
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 348,
+        "accuracy": 0.48563218390804597,
+        "confidence": 0.549975546134862
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 324,
+        "accuracy": 0.5648148148148148,
+        "confidence": 0.6515917134532235
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 325,
+        "accuracy": 0.6523076923076923,
+        "confidence": 0.7514876493183811
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 405,
+        "accuracy": 0.7086419753086419,
+        "confidence": 0.8539742648305854
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 1542,
+        "accuracy": 0.9130998702983139,
+        "confidence": 0.9746141117487482
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\baseline\\seed_7\\logits.npz"
+  },
+  {
+    "domain": "office",
+    "method": "augmix",
+    "seed": 7,
+    "n": 4327,
+    "classes_observed": 65,
+    "correct": 2617,
+    "accuracy": 0.6048070256528773,
+    "mean_class_accuracy_observed": 0.5887901997193514,
+    "mean_confidence": 0.7014694058108156,
+    "ece": 0.10250621016972504,
+    "nll": 1.5702922743756613,
+    "brier": 0.5411751963851684,
+    "high_conf_count": 1622,
+    "high_conf_wrong": 153,
+    "high_conf_coverage": 0.37485555812341115,
+    "high_conf_risk": 0.09432799013563502,
+    "top20_count": 866,
+    "top20_wrong": 27,
+    "top20_risk": 0.03117782909930716,
+    "aurc": 0.16939641561494678,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 2,
+        "accuracy": 0.0,
+        "confidence": 0.09538503873296268
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 181,
+        "accuracy": 0.11049723756906077,
+        "confidence": 0.16383399493345785
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 317,
+        "accuracy": 0.29652996845425866,
+        "confidence": 0.2566462894936893
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 363,
+        "accuracy": 0.30578512396694213,
+        "confidence": 0.3524904605081633
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 373,
+        "accuracy": 0.353887399463807,
+        "confidence": 0.4508544054165815
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 349,
+        "accuracy": 0.40114613180515757,
+        "confidence": 0.5500725371489134
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 316,
+        "accuracy": 0.4873417721518987,
+        "confidence": 0.6493940451504113
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 353,
+        "accuracy": 0.5694050991501416,
+        "confidence": 0.7506791752330658
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 451,
+        "accuracy": 0.656319290465632,
+        "confidence": 0.8526821295381707
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 1622,
+        "accuracy": 0.905672009864365,
+        "confidence": 0.9748462198626029
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\augmix\\seed_7\\logits.npz"
+  },
+  {
+    "domain": "office",
+    "method": "ls_entropy",
+    "seed": 7,
+    "n": 4327,
+    "classes_observed": 65,
+    "correct": 2783,
+    "accuracy": 0.6431707880748787,
+    "mean_class_accuracy_observed": 0.628352698150172,
+    "mean_confidence": 0.5554313695523815,
+    "ece": 0.08857899040908594,
+    "nll": 1.525175256757599,
+    "brier": 0.5001108872197244,
+    "high_conf_count": 769,
+    "high_conf_wrong": 40,
+    "high_conf_coverage": 0.17772128495493414,
+    "high_conf_risk": 0.05201560468140442,
+    "top20_count": 866,
+    "top20_wrong": 46,
+    "top20_risk": 0.053117782909930716,
+    "aurc": 0.15114424426060832,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 90,
+        "accuracy": 0.1111111111111111,
+        "confidence": 0.08360063322929069
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 606,
+        "accuracy": 0.2623762376237624,
+        "confidence": 0.1520018243405923
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 518,
+        "accuracy": 0.3764478764478765,
+        "confidence": 0.2479962438341203
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 414,
+        "accuracy": 0.4927536231884058,
+        "confidence": 0.35005460351703527
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 372,
+        "accuracy": 0.5564516129032258,
+        "confidence": 0.44921896162459807
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 310,
+        "accuracy": 0.6741935483870968,
+        "confidence": 0.5489675925252567
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 306,
+        "accuracy": 0.8006535947712419,
+        "confidence": 0.6497635464024113
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 397,
+        "accuracy": 0.836272040302267,
+        "confidence": 0.7512385361334666
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 545,
+        "accuracy": 0.9045871559633027,
+        "confidence": 0.8534945837101903
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 769,
+        "accuracy": 0.9479843953185956,
+        "confidence": 0.9503464418421779
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\ls_entropy\\seed_7\\logits.npz"
+  },
+  {
+    "domain": "office",
+    "method": "alis",
+    "seed": 7,
+    "n": 4327,
+    "classes_observed": 65,
+    "correct": 2799,
+    "accuracy": 0.6468685001155535,
+    "mean_class_accuracy_observed": 0.635883470074603,
+    "mean_confidence": 0.6677222021792228,
+    "ece": 0.055647290811420724,
+    "nll": 1.5178236634922329,
+    "brier": 0.491681264458096,
+    "high_conf_count": 1672,
+    "high_conf_wrong": 134,
+    "high_conf_coverage": 0.38641090825052,
+    "high_conf_risk": 0.08014354066985646,
+    "top20_count": 866,
+    "top20_wrong": 29,
+    "top20_risk": 0.03348729792147806,
+    "aurc": 0.1416091500302266,
+    "temperature": 1.020739167353906,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 51,
+        "accuracy": 0.1568627450980392,
+        "confidence": 0.08248921602795996
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 379,
+        "accuracy": 0.2532981530343008,
+        "confidence": 0.15268037817797675
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 383,
+        "accuracy": 0.2558746736292428,
+        "confidence": 0.24895438648094953
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 345,
+        "accuracy": 0.3826086956521739,
+        "confidence": 0.34760398669413406
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 315,
+        "accuracy": 0.4984126984126984,
+        "confidence": 0.4480815670606289
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 291,
+        "accuracy": 0.5601374570446735,
+        "confidence": 0.5506276918954731
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 261,
+        "accuracy": 0.6015325670498084,
+        "confidence": 0.6509766582983068
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 286,
+        "accuracy": 0.6713286713286714,
+        "confidence": 0.7509139638584945
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 344,
+        "accuracy": 0.75,
+        "confidence": 0.8582744839036138
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 1672,
+        "accuracy": 0.9198564593301436,
+        "confidence": 0.9752375443439155
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\alis\\seed_7\\logits.npz"
+  },
+  {
+    "domain": "office",
+    "method": "baseline",
+    "seed": 2026,
+    "n": 4327,
+    "classes_observed": 65,
+    "correct": 2693,
+    "accuracy": 0.6223711578460828,
+    "mean_class_accuracy_observed": 0.6106054721313878,
+    "mean_confidence": 0.7516479755405131,
+    "ece": 0.12932789296230696,
+    "nll": 1.6279905981986047,
+    "brier": 0.5382682632005571,
+    "high_conf_count": 2045,
+    "high_conf_wrong": 275,
+    "high_conf_coverage": 0.47261382019875203,
+    "high_conf_risk": 0.13447432762836187,
+    "top20_count": 866,
+    "top20_wrong": 27,
+    "top20_risk": 0.03117782909930716,
+    "aurc": 0.15920122302009065,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 10,
+        "accuracy": 0.1,
+        "confidence": 0.08894986579489302
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 130,
+        "accuracy": 0.09230769230769231,
+        "confidence": 0.15761763957037683
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 270,
+        "accuracy": 0.2,
+        "confidence": 0.2534340130397929
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 277,
+        "accuracy": 0.3249097472924188,
+        "confidence": 0.3488398484308872
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 298,
+        "accuracy": 0.3691275167785235,
+        "confidence": 0.45199751663031273
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 289,
+        "accuracy": 0.370242214532872,
+        "confidence": 0.5483638995061484
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 300,
+        "accuracy": 0.49,
+        "confidence": 0.648530558642503
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 309,
+        "accuracy": 0.48220064724919093,
+        "confidence": 0.7526420595036842
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 399,
+        "accuracy": 0.6340852130325815,
+        "confidence": 0.8538371232005116
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 2045,
+        "accuracy": 0.8655256723716381,
+        "confidence": 0.980423556858728
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\baseline\\seed_2026\\logits.npz"
+  },
+  {
+    "domain": "office",
+    "method": "augmix",
+    "seed": 2026,
+    "n": 4327,
+    "classes_observed": 65,
+    "correct": 2607,
+    "accuracy": 0.6024959556274555,
+    "mean_class_accuracy_observed": 0.5859454384927691,
+    "mean_confidence": 0.718886464176209,
+    "ece": 0.11639050854875355,
+    "nll": 1.6706615338463076,
+    "brier": 0.5536267607087643,
+    "high_conf_count": 1792,
+    "high_conf_wrong": 200,
+    "high_conf_coverage": 0.4141437485555812,
+    "high_conf_risk": 0.11160714285714286,
+    "top20_count": 866,
+    "top20_wrong": 33,
+    "top20_risk": 0.03810623556581986,
+    "aurc": 0.16945473635290031,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 3,
+        "accuracy": 0.0,
+        "confidence": 0.09571273011743671
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 122,
+        "accuracy": 0.14754098360655737,
+        "confidence": 0.1638029497175537
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 304,
+        "accuracy": 0.21710526315789475,
+        "confidence": 0.2526280293381858
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 326,
+        "accuracy": 0.2607361963190184,
+        "confidence": 0.34814023272858324
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 394,
+        "accuracy": 0.35279187817258884,
+        "confidence": 0.4490764136118419
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 352,
+        "accuracy": 0.42045454545454547,
+        "confidence": 0.5488301967971393
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 352,
+        "accuracy": 0.42613636363636365,
+        "confidence": 0.6498900238473175
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 302,
+        "accuracy": 0.5562913907284768,
+        "confidence": 0.7486501552202237
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 380,
+        "accuracy": 0.6342105263157894,
+        "confidence": 0.8535623160683569
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 1792,
+        "accuracy": 0.8883928571428571,
+        "confidence": 0.9769678259117401
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\augmix\\seed_2026\\logits.npz"
+  },
+  {
+    "domain": "office",
+    "method": "ls_entropy",
+    "seed": 2026,
+    "n": 4327,
+    "classes_observed": 65,
+    "correct": 2874,
+    "accuracy": 0.6642015253062168,
+    "mean_class_accuracy_observed": 0.6508036622338705,
+    "mean_confidence": 0.536760478190722,
+    "ece": 0.1274410471154947,
+    "nll": 1.5265016907829418,
+    "brier": 0.4934185183016018,
+    "high_conf_count": 614,
+    "high_conf_wrong": 19,
+    "high_conf_coverage": 0.1418996995608967,
+    "high_conf_risk": 0.030944625407166124,
+    "top20_count": 866,
+    "top20_wrong": 34,
+    "top20_risk": 0.03926096997690531,
+    "aurc": 0.1395816706573889,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 114,
+        "accuracy": 0.18421052631578946,
+        "confidence": 0.08592754680386785
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 626,
+        "accuracy": 0.30670926517571884,
+        "confidence": 0.1494926321976405
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 555,
+        "accuracy": 0.42702702702702705,
+        "confidence": 0.24788655860918313
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 439,
+        "accuracy": 0.5330296127562643,
+        "confidence": 0.3485195806617648
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 329,
+        "accuracy": 0.6322188449848024,
+        "confidence": 0.449407988604279
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 313,
+        "accuracy": 0.7284345047923323,
+        "confidence": 0.5491535162207091
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 340,
+        "accuracy": 0.7705882352941177,
+        "confidence": 0.6485202917772538
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 389,
+        "accuracy": 0.87146529562982,
+        "confidence": 0.7521684270911251
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 608,
+        "accuracy": 0.9177631578947368,
+        "confidence": 0.8524788414583867
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 614,
+        "accuracy": 0.9690553745928339,
+        "confidence": 0.9405040607882351
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\ls_entropy\\seed_2026\\logits.npz"
+  },
+  {
+    "domain": "office",
+    "method": "alis",
+    "seed": 2026,
+    "n": 4327,
+    "classes_observed": 65,
+    "correct": 2764,
+    "accuracy": 0.6387797550265774,
+    "mean_class_accuracy_observed": 0.6246890471919145,
+    "mean_confidence": 0.6284102335344206,
+    "ece": 0.050172534417341645,
+    "nll": 1.5071718849996154,
+    "brier": 0.49464512541216976,
+    "high_conf_count": 1473,
+    "high_conf_wrong": 96,
+    "high_conf_coverage": 0.34042061474462676,
+    "high_conf_risk": 0.06517311608961303,
+    "top20_count": 866,
+    "top20_wrong": 20,
+    "top20_risk": 0.023094688221709007,
+    "aurc": 0.14325572944126863,
+    "temperature": 1.0110514069443526,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 94,
+        "accuracy": 0.1276595744680851,
+        "confidence": 0.08493874794865719
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 481,
+        "accuracy": 0.2494802494802495,
+        "confidence": 0.15268141089513093
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 440,
+        "accuracy": 0.32272727272727275,
+        "confidence": 0.24860144396946462
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 354,
+        "accuracy": 0.4293785310734463,
+        "confidence": 0.3459983949178694
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 344,
+        "accuracy": 0.5,
+        "confidence": 0.44971892518673023
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 249,
+        "accuracy": 0.5421686746987951,
+        "confidence": 0.5478387315420483
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 274,
+        "accuracy": 0.6532846715328468,
+        "confidence": 0.6497149039428584
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 262,
+        "accuracy": 0.6984732824427481,
+        "confidence": 0.7517327729598288
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 356,
+        "accuracy": 0.8202247191011236,
+        "confidence": 0.8516139078694813
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 1473,
+        "accuracy": 0.9348268839103869,
+        "confidence": 0.9752704932740374
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\alis\\seed_2026\\logits.npz"
+  },
+  {
+    "domain": "visda",
+    "method": "baseline",
+    "seed": 42,
+    "n": 55388,
+    "classes_observed": 12,
+    "correct": 11580,
+    "accuracy": 0.20907055679930672,
+    "mean_class_accuracy_observed": 0.19991672968927388,
+    "mean_confidence": 0.7834280000484001,
+    "ece": 0.5743574432490934,
+    "nll": 4.6872469525251,
+    "brier": 1.2840210209537244,
+    "high_conf_count": 21792,
+    "high_conf_wrong": 15353,
+    "high_conf_coverage": 0.39344262295081966,
+    "high_conf_risk": 0.7045245961820852,
+    "top20_count": 11078,
+    "top20_wrong": 6775,
+    "top20_risk": 0.6115724860083047,
+    "aurc": 0.6927731223847896,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 7,
+        "accuracy": 0.0,
+        "confidence": 0.1895713723401206
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 241,
+        "accuracy": 0.0912863070539419,
+        "confidence": 0.26969148688225714
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 1371,
+        "accuracy": 0.13129102844638948,
+        "confidence": 0.3601844508135141
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 3746,
+        "accuracy": 0.14575547250400428,
+        "confidence": 0.45889631971069
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 6820,
+        "accuracy": 0.14457478005865101,
+        "confidence": 0.5501484764108324
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 6559,
+        "accuracy": 0.14544900137216038,
+        "confidence": 0.6494476807690786
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 6684,
+        "accuracy": 0.15559545182525433,
+        "confidence": 0.7502388147290086
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 8168,
+        "accuracy": 0.17299216454456415,
+        "confidence": 0.8527857689503943
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 21792,
+        "accuracy": 0.2954754038179148,
+        "confidence": 0.9692299273730007
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\calibration_three_domains\\visda\\temperature\\logits.npz"
+  },
+  {
+    "domain": "visda",
+    "method": "temperature",
+    "seed": 42,
+    "n": 55388,
+    "classes_observed": 12,
+    "correct": 11580,
+    "accuracy": 0.20907055679930672,
+    "mean_class_accuracy_observed": 0.19991672968927388,
+    "mean_confidence": 0.709208087285225,
+    "ece": 0.5001375304859181,
+    "nll": 3.6763372115924864,
+    "brier": 1.1905940939824264,
+    "high_conf_count": 13800,
+    "high_conf_wrong": 8784,
+    "high_conf_coverage": 0.24915144074528778,
+    "high_conf_risk": 0.6365217391304347,
+    "top20_count": 11078,
+    "top20_wrong": 6711,
+    "top20_risk": 0.6057952699043149,
+    "aurc": 0.6895208848516793,
+    "temperature": 1.341574311884538,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 23,
+        "accuracy": 0.08695652173913043,
+        "confidence": 0.18355482282480493
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 746,
+        "accuracy": 0.10455764075067024,
+        "confidence": 0.2669205578549211
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 2923,
+        "accuracy": 0.14129319192610332,
+        "confidence": 0.35704440548538635
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 6910,
+        "accuracy": 0.13560057887120117,
+        "confidence": 0.4558915702883859
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 8541,
+        "accuracy": 0.1426062521952933,
+        "confidence": 0.5486864374671032
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 7220,
+        "accuracy": 0.15761772853185596,
+        "confidence": 0.6492592313017654
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 7203,
+        "accuracy": 0.17631542412883522,
+        "confidence": 0.7503968132839953
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 8022,
+        "accuracy": 0.18798304662179008,
+        "confidence": 0.8514759741849922
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 13800,
+        "accuracy": 0.3634782608695652,
+        "confidence": 0.9619413384160045
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\calibration_three_domains\\visda\\temperature\\logits.npz"
+  },
+  {
+    "domain": "visda",
+    "method": "label_smoothing",
+    "seed": 42,
+    "n": 55388,
+    "classes_observed": 12,
+    "correct": 13605,
+    "accuracy": 0.2456308225608435,
+    "mean_class_accuracy_observed": 0.2130967871762266,
+    "mean_confidence": 0.634447638573915,
+    "ece": 0.3888168160130714,
+    "nll": 2.7382664551219214,
+    "brier": 1.0564184385310325,
+    "high_conf_count": 7485,
+    "high_conf_wrong": 4445,
+    "high_conf_coverage": 0.13513757492597675,
+    "high_conf_risk": 0.5938543754175016,
+    "top20_count": 11078,
+    "top20_wrong": 6954,
+    "top20_risk": 0.6277306372991515,
+    "aurc": 0.6790765982231584,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 157,
+        "accuracy": 0.08280254777070063,
+        "confidence": 0.18427747074559114
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 2530,
+        "accuracy": 0.12213438735177866,
+        "confidence": 0.2634343508059724
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 6599,
+        "accuracy": 0.1553265646310047,
+        "confidence": 0.35411012979730516
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 8354,
+        "accuracy": 0.19104620541058176,
+        "confidence": 0.4500473294913355
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 7493,
+        "accuracy": 0.21673561991191778,
+        "confidence": 0.5490838450937969
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 7057,
+        "accuracy": 0.23721127958055832,
+        "confidence": 0.6499821642206344
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 7302,
+        "accuracy": 0.26184606956998085,
+        "confidence": 0.7506121276520744
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 8411,
+        "accuracy": 0.286767328498395,
+        "confidence": 0.8514698403920911
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 7485,
+        "accuracy": 0.4061456245824983,
+        "confidence": 0.9358724422093032
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\calibration_three_domains\\visda\\label_smoothing\\logits.npz"
+  },
+  {
+    "domain": "visda",
+    "method": "confidence_penalty",
+    "seed": 42,
+    "n": 55388,
+    "classes_observed": 12,
+    "correct": 10544,
+    "accuracy": 0.1903661442911822,
+    "mean_class_accuracy_observed": 0.1677182825182321,
+    "mean_confidence": 0.7894871345034481,
+    "ece": 0.5991209902122658,
+    "nll": 5.685686439588819,
+    "brier": 1.328556234876672,
+    "high_conf_count": 22258,
+    "high_conf_wrong": 16764,
+    "high_conf_coverage": 0.40185599768903013,
+    "high_conf_risk": 0.7531674004852188,
+    "top20_count": 11078,
+    "top20_wrong": 7661,
+    "top20_risk": 0.6915508214479148,
+    "aurc": 0.7337681763805796,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 1,
+        "accuracy": 0.0,
+        "confidence": 0.18182914023697405
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 173,
+        "accuracy": 0.11560693641618497,
+        "confidence": 0.2723892964128814
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 1352,
+        "accuracy": 0.11242603550295859,
+        "confidence": 0.36175049049818586
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 3583,
+        "accuracy": 0.13257047167178343,
+        "confidence": 0.45832534550761356
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 6150,
+        "accuracy": 0.15186991869918698,
+        "confidence": 0.5497861875632541
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 6395,
+        "accuracy": 0.1532447224394058,
+        "confidence": 0.6504007624671186
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 6744,
+        "accuracy": 0.15851126927639383,
+        "confidence": 0.7505917776176919
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 8732,
+        "accuracy": 0.16262024736601008,
+        "confidence": 0.8534015227412569
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 22258,
+        "accuracy": 0.2468325995147812,
+        "confidence": 0.9657269690910405
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\calibration_three_domains\\visda\\confidence_penalty\\logits.npz"
+  },
+  {
+    "domain": "visda",
+    "method": "augmix",
+    "seed": 42,
+    "n": 55388,
+    "classes_observed": 12,
+    "correct": 15624,
+    "accuracy": 0.2820827616090128,
+    "mean_class_accuracy_observed": 0.25469732842136733,
+    "mean_confidence": 0.8598184398295298,
+    "ece": 0.5777456793564928,
+    "nll": 6.248532262852079,
+    "brier": 1.2453245834193096,
+    "high_conf_count": 33030,
+    "high_conf_wrong": 21703,
+    "high_conf_coverage": 0.596338557088178,
+    "high_conf_risk": 0.6570693309112927,
+    "top20_count": 11078,
+    "top20_wrong": 5818,
+    "top20_risk": 0.5251850514533309,
+    "aurc": 0.6006371704954385,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 4,
+        "accuracy": 0.25,
+        "confidence": 0.18075713507198132
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 110,
+        "accuracy": 0.14545454545454545,
+        "confidence": 0.2691229185468229
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 746,
+        "accuracy": 0.13941018766756033,
+        "confidence": 0.3611517122613169
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 2042,
+        "accuracy": 0.1425073457394711,
+        "confidence": 0.45680783558654986
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 4125,
+        "accuracy": 0.1798787878787879,
+        "confidence": 0.5496861912902126
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 4260,
+        "accuracy": 0.1955399061032864,
+        "confidence": 0.6508130979990038
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 4734,
+        "accuracy": 0.19539501478664978,
+        "confidence": 0.7504083675406436
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 6337,
+        "accuracy": 0.21855767713429067,
+        "confidence": 0.8534125388107667
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 33030,
+        "accuracy": 0.34293066908870723,
+        "confidence": 0.980643312478164
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\visda\\augmix\\logits.npz"
+  },
+  {
+    "domain": "visda",
+    "method": "dac",
+    "seed": 42,
+    "n": 55388,
+    "classes_observed": 12,
+    "correct": 11582,
+    "accuracy": 0.20910666570376255,
+    "mean_class_accuracy_observed": 0.1999425062530049,
+    "mean_confidence": 0.5541682013331986,
+    "ece": 0.34506153562943603,
+    "nll": 2.7315907052720556,
+    "brier": 1.0216392843145663,
+    "high_conf_count": 4730,
+    "high_conf_wrong": 2271,
+    "high_conf_coverage": 0.08539755903805879,
+    "high_conf_risk": 0.4801268498942918,
+    "top20_count": 11078,
+    "top20_wrong": 6478,
+    "top20_risk": 0.5847625925257267,
+    "aurc": 0.6708073887689657,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 368,
+        "accuracy": 0.07880434782608696,
+        "confidence": 0.18167940029456256
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 6061,
+        "accuracy": 0.10443821151625145,
+        "confidence": 0.26365529284914124
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 10055,
+        "accuracy": 0.11337642963699653,
+        "confidence": 0.3492067487070139
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 9383,
+        "accuracy": 0.14909943514867313,
+        "confidence": 0.44955084467625084
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 7947,
+        "accuracy": 0.17704794261985654,
+        "confidence": 0.5482349405216808
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 6520,
+        "accuracy": 0.21196319018404908,
+        "confidence": 0.6484963334200324
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 5470,
+        "accuracy": 0.2561243144424132,
+        "confidence": 0.749050632329411
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 4854,
+        "accuracy": 0.35681911825298723,
+        "confidence": 0.8495908592771136
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 4730,
+        "accuracy": 0.5198731501057082,
+        "confidence": 0.9500520076812844
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\visda\\dac\\logits.npz"
+  },
+  {
+    "domain": "visda",
+    "method": "ls_entropy",
+    "seed": 42,
+    "n": 55388,
+    "classes_observed": 12,
+    "correct": 9462,
+    "accuracy": 0.1708312269805734,
+    "mean_class_accuracy_observed": 0.16755030392181214,
+    "mean_confidence": 0.7066975705739796,
+    "ece": 0.5358663435934062,
+    "nll": 3.6657161555789632,
+    "brier": 1.2666409547299269,
+    "high_conf_count": 14740,
+    "high_conf_wrong": 11548,
+    "high_conf_coverage": 0.266122625839532,
+    "high_conf_risk": 0.7834464043419267,
+    "top20_count": 11078,
+    "top20_wrong": 8573,
+    "top20_risk": 0.7738761509297707,
+    "aurc": 0.7968079112963176,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 64,
+        "accuracy": 0.109375,
+        "confidence": 0.1865820076939395
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 1494,
+        "accuracy": 0.09571619812583668,
+        "confidence": 0.26649644314200704
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 4318,
+        "accuracy": 0.13131079203334878,
+        "confidence": 0.3543828207854335
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 6401,
+        "accuracy": 0.14669582877675363,
+        "confidence": 0.45197152595705326
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 6471,
+        "accuracy": 0.1512903724308453,
+        "confidence": 0.5492174560763052
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 6189,
+        "accuracy": 0.1546291808046534,
+        "confidence": 0.6498708240211993
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 6764,
+        "accuracy": 0.1614429331756357,
+        "confidence": 0.7515225593017846
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 8947,
+        "accuracy": 0.17726612272270034,
+        "confidence": 0.8533234560381171
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 14740,
+        "accuracy": 0.21655359565807328,
+        "confidence": 0.9508251768097108
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\visda\\ls_entropy\\logits.npz"
+  },
+  {
+    "domain": "visda",
+    "method": "alis",
+    "seed": 42,
+    "n": 55388,
+    "classes_observed": 12,
+    "correct": 12640,
+    "accuracy": 0.22820827616090128,
+    "mean_class_accuracy_observed": 0.21825817604629671,
+    "mean_confidence": 0.5641005414344783,
+    "ece": 0.335892265273577,
+    "nll": 2.8153643292763,
+    "brier": 1.0350439928929647,
+    "high_conf_count": 7162,
+    "high_conf_wrong": 4472,
+    "high_conf_coverage": 0.12930598685635877,
+    "high_conf_risk": 0.6244065903378945,
+    "top20_count": 11078,
+    "top20_wrong": 7191,
+    "top20_risk": 0.649124390684239,
+    "aurc": 0.6979138288003434,
+    "temperature": 1.5557167064367736,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 1690,
+        "accuracy": 0.10532544378698225,
+        "confidence": 0.17648387114178446
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 7661,
+        "accuracy": 0.13849366923378148,
+        "confidence": 0.2546467962000314
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 8405,
+        "accuracy": 0.1683521713265913,
+        "confidence": 0.349286272445943
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 7688,
+        "accuracy": 0.19575962539021852,
+        "confidence": 0.44901650590751857
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 6416,
+        "accuracy": 0.21898379052369077,
+        "confidence": 0.5489174720886572
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 5673,
+        "accuracy": 0.23655913978494625,
+        "confidence": 0.6492359901416325
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 5158,
+        "accuracy": 0.2677394338891043,
+        "confidence": 0.7503699746064703
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 5535,
+        "accuracy": 0.3004516711833785,
+        "confidence": 0.8511114093455671
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 7162,
+        "accuracy": 0.3755934096621056,
+        "confidence": 0.9524188314699079
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\visda\\alis\\logits.npz"
+  },
+  {
+    "domain": "visda",
+    "method": "smoothing_plus_temperature",
+    "seed": 42,
+    "n": 55388,
+    "classes_observed": 12,
+    "correct": 13605,
+    "accuracy": 0.2456308225608435,
+    "mean_class_accuracy_observed": 0.2130967871762266,
+    "mean_confidence": 0.7681713097277656,
+    "ece": 0.5225404871669221,
+    "nll": 3.5642347940063863,
+    "brier": 1.1994635300004757,
+    "high_conf_count": 21499,
+    "high_conf_wrong": 14616,
+    "high_conf_coverage": 0.3881526684480393,
+    "high_conf_risk": 0.679845574212754,
+    "top20_count": 11078,
+    "top20_wrong": 6968,
+    "top20_risk": 0.6289944033218993,
+    "aurc": 0.6806204656018834,
+    "temperature": 0.6816972701579974,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 18,
+        "accuracy": 0.16666666666666666,
+        "confidence": 0.18702081445095342
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 569,
+        "accuracy": 0.10193321616871705,
+        "confidence": 0.2676740714978479
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 2425,
+        "accuracy": 0.13649484536082473,
+        "confidence": 0.3577955248125073
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 4893,
+        "accuracy": 0.16206826078070713,
+        "confidence": 0.45478490215785383
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 5996,
+        "accuracy": 0.19246164109406272,
+        "confidence": 0.5494333383406496
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 5753,
+        "accuracy": 0.1931166347992352,
+        "confidence": 0.6502985871813064
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 6193,
+        "accuracy": 0.22154044889391247,
+        "confidence": 0.7509572648427387
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 8042,
+        "accuracy": 0.23625963690624222,
+        "confidence": 0.8531863251470524
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 21499,
+        "accuracy": 0.3201544257872459,
+        "confidence": 0.9652221066645942
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\calibration_three_domains\\visda\\label_smoothing\\logits.npz"
+  },
+  {
+    "domain": "visda",
+    "method": "baseline",
+    "seed": 7,
+    "n": 55388,
+    "classes_observed": 12,
+    "correct": 7402,
+    "accuracy": 0.13363905539105944,
+    "mean_class_accuracy_observed": 0.13385237103699119,
+    "mean_confidence": 0.8675944682028303,
+    "ece": 0.7339554128117711,
+    "nll": 8.227734149723652,
+    "brier": 1.5376381754464985,
+    "high_conf_count": 33649,
+    "high_conf_wrong": 28724,
+    "high_conf_coverage": 0.6075142630172601,
+    "high_conf_risk": 0.8536360664507118,
+    "top20_count": 11078,
+    "top20_wrong": 8632,
+    "top20_risk": 0.7792020220256364,
+    "aurc": 0.8132286079368511,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 37,
+        "accuracy": 0.24324324324324326,
+        "confidence": 0.2768559028625453
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 498,
+        "accuracy": 0.1144578313253012,
+        "confidence": 0.362970344380853
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 1672,
+        "accuracy": 0.11064593301435406,
+        "confidence": 0.45985902443699755
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 4027,
+        "accuracy": 0.1216786689843556,
+        "confidence": 0.549276649984334
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 4003,
+        "accuracy": 0.12290781913564826,
+        "confidence": 0.6508014345595495
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 4797,
+        "accuracy": 0.1104857202418178,
+        "confidence": 0.7519916197192358
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 6705,
+        "accuracy": 0.10648769574944071,
+        "confidence": 0.8537073641143833
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 33649,
+        "accuracy": 0.14636393354928823,
+        "confidence": 0.9791057186794029
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\baseline\\seed_7\\logits.npz"
+  },
+  {
+    "domain": "visda",
+    "method": "augmix",
+    "seed": 7,
+    "n": 55388,
+    "classes_observed": 12,
+    "correct": 13026,
+    "accuracy": 0.23517729472087817,
+    "mean_class_accuracy_observed": 0.22895597704447027,
+    "mean_confidence": 0.8109240591148331,
+    "ece": 0.5757467643939549,
+    "nll": 5.298264140354738,
+    "brier": 1.2764805217613286,
+    "high_conf_count": 26502,
+    "high_conf_wrong": 18882,
+    "high_conf_coverage": 0.47847909294432006,
+    "high_conf_risk": 0.712474530224134,
+    "top20_count": 11078,
+    "top20_wrong": 7285,
+    "top20_risk": 0.6576096768369741,
+    "aurc": 0.6964511573063481,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 288,
+        "accuracy": 0.1423611111111111,
+        "confidence": 0.2684438698300144
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 1562,
+        "accuracy": 0.17413572343149808,
+        "confidence": 0.36013778878163666
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 3345,
+        "accuracy": 0.14469357249626308,
+        "confidence": 0.45687957157071374
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 5348,
+        "accuracy": 0.18511593118922962,
+        "confidence": 0.5502605809466641
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 5279,
+        "accuracy": 0.18261034286796743,
+        "confidence": 0.6509898102935848
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 5820,
+        "accuracy": 0.19312714776632303,
+        "confidence": 0.7510511918022134
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 7244,
+        "accuracy": 0.21134732192159028,
+        "confidence": 0.8530875286502668
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 26502,
+        "accuracy": 0.28752546977586596,
+        "confidence": 0.9741566587233556
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\augmix\\seed_7\\logits.npz"
+  },
+  {
+    "domain": "visda",
+    "method": "ls_entropy",
+    "seed": 7,
+    "n": 55388,
+    "classes_observed": 12,
+    "correct": 12137,
+    "accuracy": 0.21912688669025782,
+    "mean_class_accuracy_observed": 0.18017379391443145,
+    "mean_confidence": 0.6148307215493237,
+    "ece": 0.3957038348590658,
+    "nll": 2.8856697303195205,
+    "brier": 1.0888990292004905,
+    "high_conf_count": 5356,
+    "high_conf_wrong": 3783,
+    "high_conf_coverage": 0.09669964613273634,
+    "high_conf_risk": 0.7063106796116505,
+    "top20_count": 11078,
+    "top20_wrong": 7969,
+    "top20_risk": 0.7193536739483661,
+    "aurc": 0.7388166784775985,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 74,
+        "accuracy": 0.0945945945945946,
+        "confidence": 0.1833091696135408
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 2834,
+        "accuracy": 0.12597035991531405,
+        "confidence": 0.2648823539387603
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 7344,
+        "accuracy": 0.16339869281045752,
+        "confidence": 0.3541564123003658
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 8767,
+        "accuracy": 0.19368084863693397,
+        "confidence": 0.44905653673117024
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 7962,
+        "accuracy": 0.2057272042200452,
+        "confidence": 0.5487608943970012
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 7410,
+        "accuracy": 0.2241565452091768,
+        "confidence": 0.649994433204531
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 7430,
+        "accuracy": 0.24481830417227457,
+        "confidence": 0.7508857930176254
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 8211,
+        "accuracy": 0.2659846547314578,
+        "confidence": 0.851156702375705
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 5356,
+        "accuracy": 0.2936893203883495,
+        "confidence": 0.9332668165686454
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\ls_entropy\\seed_7\\logits.npz"
+  },
+  {
+    "domain": "visda",
+    "method": "alis",
+    "seed": 7,
+    "n": 55388,
+    "classes_observed": 12,
+    "correct": 16615,
+    "accuracy": 0.2999747237668809,
+    "mean_class_accuracy_observed": 0.24892917523993938,
+    "mean_confidence": 0.6670229315251103,
+    "ece": 0.36704820775822933,
+    "nll": 2.868291355931473,
+    "brier": 1.007221786473883,
+    "high_conf_count": 14378,
+    "high_conf_wrong": 7624,
+    "high_conf_coverage": 0.2595869141330252,
+    "high_conf_risk": 0.5302545555710113,
+    "top20_count": 11078,
+    "top20_wrong": 5647,
+    "top20_risk": 0.5097490521754829,
+    "aurc": 0.5925258500931886,
+    "temperature": 1.5579961438831291,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 838,
+        "accuracy": 0.1026252983293556,
+        "confidence": 0.17689533086886086
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 3767,
+        "accuracy": 0.13246615343774887,
+        "confidence": 0.25584050570434874
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 5662,
+        "accuracy": 0.1630166019074532,
+        "confidence": 0.35252474271413003
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 6608,
+        "accuracy": 0.20777845036319612,
+        "confidence": 0.45036676713618956
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 6048,
+        "accuracy": 0.23098544973544974,
+        "confidence": 0.5493134267808106
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 5529,
+        "accuracy": 0.268945559775728,
+        "confidence": 0.6491517525092894
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 5772,
+        "accuracy": 0.2938322938322938,
+        "confidence": 0.7507707870805063
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 6786,
+        "accuracy": 0.3536693191865606,
+        "confidence": 0.8528557692687722
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 14378,
+        "accuracy": 0.46974544442898875,
+        "confidence": 0.9617973355468287
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\alis\\seed_7\\logits.npz"
+  },
+  {
+    "domain": "visda",
+    "method": "baseline",
+    "seed": 2026,
+    "n": 55388,
+    "classes_observed": 12,
+    "correct": 10577,
+    "accuracy": 0.19096194121470356,
+    "mean_class_accuracy_observed": 0.2004797404060872,
+    "mean_confidence": 0.7868271508268584,
+    "ece": 0.5958652096121548,
+    "nll": 6.384535071521669,
+    "brier": 1.3355580372846272,
+    "high_conf_count": 22784,
+    "high_conf_wrong": 16848,
+    "high_conf_coverage": 0.4113526395609157,
+    "high_conf_risk": 0.7394662921348315,
+    "top20_count": 11078,
+    "top20_wrong": 7592,
+    "top20_risk": 0.6853222603358007,
+    "aurc": 0.7329192021058706,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 158,
+        "accuracy": 0.06962025316455696,
+        "confidence": 0.2792558003207783
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 1594,
+        "accuracy": 0.11166875784190715,
+        "confidence": 0.36280774349067113
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 4255,
+        "accuracy": 0.11045828437132785,
+        "confidence": 0.4561546307445672
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 6307,
+        "accuracy": 0.1306484858094181,
+        "confidence": 0.5489327690451169
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 6092,
+        "accuracy": 0.1428102429415627,
+        "confidence": 0.6501024122210076
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 6415,
+        "accuracy": 0.15323460639127046,
+        "confidence": 0.7512183562616362
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 7783,
+        "accuracy": 0.1676731337530515,
+        "confidence": 0.8527768270582337
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 22784,
+        "accuracy": 0.26053370786516855,
+        "confidence": 0.9716746684767612
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\baseline\\seed_2026\\logits.npz"
+  },
+  {
+    "domain": "visda",
+    "method": "augmix",
+    "seed": 2026,
+    "n": 55388,
+    "classes_observed": 12,
+    "correct": 11200,
+    "accuracy": 0.20220986495269733,
+    "mean_class_accuracy_observed": 0.21500161008695165,
+    "mean_confidence": 0.8126281543567434,
+    "ece": 0.610418289404046,
+    "nll": 6.9547758440263685,
+    "brier": 1.3390467604051024,
+    "high_conf_count": 26906,
+    "high_conf_wrong": 20006,
+    "high_conf_coverage": 0.4857730916443995,
+    "high_conf_risk": 0.7435516241730469,
+    "top20_count": 11078,
+    "top20_wrong": 7411,
+    "top20_risk": 0.6689835710417043,
+    "aurc": 0.7197233391566928,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 5,
+        "accuracy": 0.0,
+        "confidence": 0.1869664829143674
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 281,
+        "accuracy": 0.10676156583629894,
+        "confidence": 0.2689451162989807
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 1600,
+        "accuracy": 0.1275,
+        "confidence": 0.35943117447795886
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 3466,
+        "accuracy": 0.1298326601269475,
+        "confidence": 0.45530349017550054
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 5203,
+        "accuracy": 0.1462617720545839,
+        "confidence": 0.5506343243289724
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 5211,
+        "accuracy": 0.15006716561120706,
+        "confidence": 0.64980991403756
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 5769,
+        "accuracy": 0.1499393309065696,
+        "confidence": 0.751335778171598
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 6947,
+        "accuracy": 0.17388800921260977,
+        "confidence": 0.8533008180729058
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 26906,
+        "accuracy": 0.2564483758269531,
+        "confidence": 0.9762402916950086
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\augmix\\seed_2026\\logits.npz"
+  },
+  {
+    "domain": "visda",
+    "method": "ls_entropy",
+    "seed": 2026,
+    "n": 55388,
+    "classes_observed": 12,
+    "correct": 12206,
+    "accuracy": 0.22037264389398425,
+    "mean_class_accuracy_observed": 0.18595187923722237,
+    "mean_confidence": 0.6620131548594357,
+    "ece": 0.4416405109654514,
+    "nll": 3.173856027642353,
+    "brier": 1.1352105472984813,
+    "high_conf_count": 7810,
+    "high_conf_wrong": 4911,
+    "high_conf_coverage": 0.14100527190005055,
+    "high_conf_risk": 0.628809218950064,
+    "top20_count": 11078,
+    "top20_wrong": 7221,
+    "top20_risk": 0.6518324607329843,
+    "aurc": 0.708335434687195,
+    "temperature": 1.0,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 35,
+        "accuracy": 0.08571428571428572,
+        "confidence": 0.18982971479514066
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 1386,
+        "accuracy": 0.12914862914862915,
+        "confidence": 0.26778292838337825
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 5016,
+        "accuracy": 0.14692982456140352,
+        "confidence": 0.35575312306203605
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 7705,
+        "accuracy": 0.16041531473069434,
+        "confidence": 0.4529373396106898
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 7856,
+        "accuracy": 0.179989816700611,
+        "confidence": 0.5486090941737205
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 7792,
+        "accuracy": 0.1839065708418891,
+        "confidence": 0.6497317588526439
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 8132,
+        "accuracy": 0.21815051647811118,
+        "confidence": 0.7502033649871869
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 9656,
+        "accuracy": 0.2621168185584093,
+        "confidence": 0.8521184664970666
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 7810,
+        "accuracy": 0.37119078104993597,
+        "confidence": 0.9365122906834399
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\ls_entropy\\seed_2026\\logits.npz"
+  },
+  {
+    "domain": "visda",
+    "method": "alis",
+    "seed": 2026,
+    "n": 55388,
+    "classes_observed": 12,
+    "correct": 13054,
+    "accuracy": 0.2356828193832599,
+    "mean_class_accuracy_observed": 0.22915721224312888,
+    "mean_confidence": 0.7233159927316432,
+    "ece": 0.4876331733483833,
+    "nll": 3.5254047970126168,
+    "brier": 1.17392580268694,
+    "high_conf_count": 18320,
+    "high_conf_wrong": 12575,
+    "high_conf_coverage": 0.3307575648154835,
+    "high_conf_risk": 0.6864082969432315,
+    "top20_count": 11078,
+    "top20_wrong": 7334,
+    "top20_risk": 0.6620328579165914,
+    "aurc": 0.7074421026630302,
+    "temperature": 1.54441694528954,
+    "bins": [
+      {
+        "bin": 0,
+        "left": 0.0,
+        "right": 0.1,
+        "n": 0,
+        "accuracy": null,
+        "confidence": null
+      },
+      {
+        "bin": 1,
+        "left": 0.1,
+        "right": 0.2,
+        "n": 234,
+        "accuracy": 0.10683760683760683,
+        "confidence": 0.18065789811187222
+      },
+      {
+        "bin": 2,
+        "left": 0.2,
+        "right": 0.3,
+        "n": 2131,
+        "accuracy": 0.12576255279211637,
+        "confidence": 0.2588089341487242
+      },
+      {
+        "bin": 3,
+        "left": 0.3,
+        "right": 0.4,
+        "n": 4074,
+        "accuracy": 0.13672066764850271,
+        "confidence": 0.3543865956164815
+      },
+      {
+        "bin": 4,
+        "left": 0.4,
+        "right": 0.5,
+        "n": 5561,
+        "accuracy": 0.17514835461247977,
+        "confidence": 0.452511256268253
+      },
+      {
+        "bin": 5,
+        "left": 0.5,
+        "right": 0.6,
+        "n": 5825,
+        "accuracy": 0.19158798283261802,
+        "confidence": 0.5495555545781733
+      },
+      {
+        "bin": 6,
+        "left": 0.6,
+        "right": 0.7,
+        "n": 5637,
+        "accuracy": 0.2132339897108391,
+        "confidence": 0.6504300680960711
+      },
+      {
+        "bin": 7,
+        "left": 0.7,
+        "right": 0.8,
+        "n": 5987,
+        "accuracy": 0.22064473024887254,
+        "confidence": 0.7508732546916334
+      },
+      {
+        "bin": 8,
+        "left": 0.8,
+        "right": 0.9,
+        "n": 7619,
+        "accuracy": 0.24228901430633942,
+        "confidence": 0.8527838427588045
+      },
+      {
+        "bin": 9,
+        "left": 0.9,
+        "right": 1.0,
+        "n": 18320,
+        "accuracy": 0.31359170305676853,
+        "confidence": 0.9633499267930289
+      }
+    ],
+    "prediction_source": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\alis\\seed_2026\\logits.npz"
+  }
+]

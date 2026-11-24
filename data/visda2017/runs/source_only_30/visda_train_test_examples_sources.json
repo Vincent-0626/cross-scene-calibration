@@ -1,0 +1,22 @@
+[
+  {
+    "class": "aeroplane",
+    "source_train": "train/aeroplane/src_2_02691156_3f9cab3630160be9f19e1980c1653b79__129_236_165.png",
+    "target_test": "validation/aeroplane/aeroplane_161928.jpg"
+  },
+  {
+    "class": "car",
+    "source_train": "train/car/src_1_02958343_5e857724d62912969acee38782dd9680__333_349_165.png",
+    "target_test": "validation/car/car_354757.jpg"
+  },
+  {
+    "class": "horse",
+    "source_train": "train/horse/src_5_21-5-1__180_10_150.png",
+    "target_test": "validation/horse/horse_54185.jpg"
+  },
+  {
+    "class": "train",
+    "source_train": "train/train/src_2_04468005_26d7ebe6f434ac67e810c01b1498aa2b__214_123_150.png",
+    "target_test": "validation/train/train_170956.jpg"
+  }
+]

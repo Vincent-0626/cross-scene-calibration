@@ -1,0 +1,27 @@
+{
+  "domain": "office",
+  "method": "smoothing_plus_temperature",
+  "temperature": 0.7304871589801613,
+  "fit": "source-domain validation NLL only",
+  "validation": {
+    "n": 885,
+    "correct": 791,
+    "accuracy": 0.8937853107344633,
+    "mean_confidence": 0.8996983021095363,
+    "ece": 0.02475235355797617,
+    "nll": 0.46664499917180813,
+    "high_confidence": 701,
+    "high_confidence_wrong": 19
+  },
+  "test": {
+    "n": 4327,
+    "correct": 2781,
+    "accuracy": 0.6427085740697943,
+    "mean_confidence": 0.704929275521549,
+    "ece": 0.06827624461652348,
+    "nll": 1.4754842249095386,
+    "high_confidence": 1708,
+    "high_confidence_wrong": 149
+  },
+  "warning": "exploratory; target test previously observed; validation also used for model selection"
+}

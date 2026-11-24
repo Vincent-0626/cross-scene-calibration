@@ -1,0 +1,27 @@
+[
+  {
+    "class": "Mug",
+    "product_file": "/root/cross_scene_20261120/datasets/officehome/OfficeHomeDataset_10072016/Product/Mug/00009.jpg",
+    "real_file": "/root/cross_scene_20261120/datasets/officehome/OfficeHomeDataset_10072016/Real World/Mug/00001.jpg"
+  },
+  {
+    "class": "Chair",
+    "product_file": "/root/cross_scene_20261120/datasets/officehome/OfficeHomeDataset_10072016/Product/Chair/00061.jpg",
+    "real_file": "/root/cross_scene_20261120/datasets/officehome/OfficeHomeDataset_10072016/Real World/Chair/00001.jpg"
+  },
+  {
+    "class": "Desk_Lamp",
+    "product_file": "/root/cross_scene_20261120/datasets/officehome/OfficeHomeDataset_10072016/Product/Desk_Lamp/00035.jpg",
+    "real_file": "/root/cross_scene_20261120/datasets/officehome/OfficeHomeDataset_10072016/Real World/Desk_Lamp/00001.jpg"
+  },
+  {
+    "class": "Laptop",
+    "product_file": "/root/cross_scene_20261120/datasets/officehome/OfficeHomeDataset_10072016/Product/Laptop/00008.jpg",
+    "real_file": "/root/cross_scene_20261120/datasets/officehome/OfficeHomeDataset_10072016/Real World/Laptop/00001.jpg"
+  },
+  {
+    "class": "Bottle",
+    "product_file": "/root/cross_scene_20261120/datasets/officehome/OfficeHomeDataset_10072016/Product/Bottle/00007.jpg",
+    "real_file": "/root/cross_scene_20261120/datasets/officehome/OfficeHomeDataset_10072016/Real World/Bottle/00001.jpg"
+  }
+]

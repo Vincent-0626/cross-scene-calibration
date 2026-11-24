@@ -1,0 +1,27 @@
+{
+  "domain": "visda",
+  "method": "smoothing_plus_temperature",
+  "temperature": 0.6816972701579974,
+  "fit": "source-domain validation NLL only",
+  "validation": {
+    "n": 30560,
+    "correct": 28839,
+    "accuracy": 0.943684554973822,
+    "mean_confidence": 0.9515774851357525,
+    "ece": 0.008452620353968859,
+    "nll": 0.19940115915149378,
+    "high_confidence": 27014,
+    "high_confidence_wrong": 500
+  },
+  "test": {
+    "n": 55388,
+    "correct": 13605,
+    "accuracy": 0.2456308225608435,
+    "mean_confidence": 0.7681713097277656,
+    "ece": 0.5225404871669221,
+    "nll": 3.5642347940063863,
+    "high_confidence": 21499,
+    "high_confidence_wrong": 14616
+  },
+  "warning": "exploratory; target test previously observed; validation also used for model selection"
+}

@@ -1,0 +1,44 @@
+{
+  "best_epoch": 17,
+  "validation": {
+    "n": 865,
+    "correct": 718,
+    "accuracy": 0.8300578034682081,
+    "mean_confidence": 0.8793868223067318,
+    "ece": 0.05317734757102488,
+    "nll": 0.7137391912489496,
+    "high_confidence": 625,
+    "high_confidence_wrong": 39
+  },
+  "test": {
+    "n": 865,
+    "correct": 698,
+    "accuracy": 0.8069364161849711,
+    "mean_confidence": 0.856095551162494,
+    "ece": 0.06059156051009686,
+    "nll": 0.7543408846682406,
+    "high_confidence": 587,
+    "high_confidence_wrong": 29
+  },
+  "checkpoint": "/root/cross_scene_20261120/target_domain_baselines_20261122/office/baseline/best.pt",
+  "cross_scene_same_heldout": {
+    "n": 865,
+    "correct": 536,
+    "accuracy": 0.6196531791907515,
+    "mean_confidence": 0.7032662604135519,
+    "ece": 0.08584065120675594,
+    "nll": 1.5067986706541754,
+    "high_confidence": 346,
+    "high_confidence_wrong": 30
+  },
+  "domain": "office",
+  "method": "baseline",
+  "counts": {
+    "train": 2597,
+    "val": 865,
+    "test": 865
+  },
+  "seed": 42,
+  "early_stop": "validation accuracy patience 5 max 30",
+  "warning": "exploratory; target previously observed; exact duplicates grouped; near duplicates or shared scenes can remain"
+}

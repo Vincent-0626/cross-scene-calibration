@@ -1,0 +1,30 @@
+{
+  "original": {
+    "accuracy": 0.25442477876106195,
+    "ece": 0.5622332127748337,
+    "high_confidence": 243,
+    "high_confidence_wrong": 163,
+    "mean_confidence": 0.8166580200195312
+  },
+  "grey": {
+    "accuracy": 0.2168141592920354,
+    "ece": 0.5712178296417789,
+    "high_confidence": 211,
+    "high_confidence_wrong": 147,
+    "mean_confidence": 0.7846750020980835,
+    "pred_changed": 221
+  },
+  "green": {
+    "accuracy": 0.2013274336283186,
+    "ece": 0.5972350358435539,
+    "high_confidence": 211,
+    "high_confidence_wrong": 149,
+    "mean_confidence": 0.7985625267028809,
+    "pred_changed": 235
+  },
+  "n": 452,
+  "checkpoint_epoch": 28,
+  "flagged_masks": 47,
+  "mask_method": "GrabCut on bounding-box crop, 8px margin; automated imperfect segmentation, requires manual inspection",
+  "caveat": "exploratory paired background manipulation, solid colours only, not causal proof; resized original control; ground truth boxes used"
+}

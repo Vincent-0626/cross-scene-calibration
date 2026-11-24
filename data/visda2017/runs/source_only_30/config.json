@@ -1,0 +1,36 @@
+{
+  "model": "ResNet50 ImageNet1K_V1",
+  "task": "VisDA synthetic to real; source only supervised classification",
+  "seed": 42,
+  "batch_size": 32,
+  "max_epochs": 30,
+  "patience": 5,
+  "early_stop": "source validation accuracy, strict improvement",
+  "optimizer": "AdamW",
+  "lr": 0.0001,
+  "weight_decay": 0.01,
+  "schedule": "CosineAnnealingLR T_max=30",
+  "classes": [
+    "aeroplane",
+    "bicycle",
+    "bus",
+    "car",
+    "horse",
+    "knife",
+    "motorcycle",
+    "person",
+    "plant",
+    "skateboard",
+    "train",
+    "truck"
+  ],
+  "split": "stratified 80/20 source by original 3D model filename prefix before __; target official validation images held out for one-time final exploratory test",
+  "counts": {
+    "source_train": 121837,
+    "source_val": 30560,
+    "target_test": 55388
+  },
+  "source_transform": "RandomResizedCrop 224 scale .8..1, horizontal flip",
+  "eval_transform": "resize 256 center crop 224",
+  "initialization": "ImageNet pretrained; source renderings not independent 3D models"
+}

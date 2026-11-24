@@ -1,0 +1,16 @@
+# Ignore vendored Python packages, local QA renders, and raw thesis drafts
+vendor/
+qa/
+source/
+__pycache__/
+*.py[cod]
+*.part
+*.log
+
+# Ignore heavy model weights and raw image archives (>100MB)
+*.pt
+*.pth
+*.ckpt
+*.tar
+*.tar.gz
+*.zip

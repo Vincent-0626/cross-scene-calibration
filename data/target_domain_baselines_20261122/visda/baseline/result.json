@@ -1,0 +1,44 @@
+{
+  "best_epoch": 29,
+  "validation": {
+    "n": 11064,
+    "correct": 9647,
+    "accuracy": 0.8719269703543022,
+    "mean_confidence": 0.9584202621180123,
+    "ece": 0.0865281717116097,
+    "nll": 0.6507100047716291,
+    "high_confidence": 9733,
+    "high_confidence_wrong": 727
+  },
+  "test": {
+    "n": 11066,
+    "correct": 9589,
+    "accuracy": 0.8665281041026568,
+    "mean_confidence": 0.958646916836965,
+    "ece": 0.09211881273430828,
+    "nll": 0.6680154683614881,
+    "high_confidence": 9741,
+    "high_confidence_wrong": 777
+  },
+  "checkpoint": "/root/cross_scene_20261120/target_domain_baselines_20261122/visda/baseline/best.pt",
+  "cross_scene_same_heldout": {
+    "n": 11066,
+    "correct": 2257,
+    "accuracy": 0.20395806976323874,
+    "mean_confidence": 0.7802033461665075,
+    "ece": 0.5762452764032688,
+    "nll": 4.707165211739694,
+    "high_confidence": 4224,
+    "high_confidence_wrong": 2955
+  },
+  "domain": "visda",
+  "method": "baseline",
+  "counts": {
+    "train": 33200,
+    "val": 11064,
+    "test": 11066
+  },
+  "seed": 42,
+  "early_stop": "validation accuracy patience 5 max 30",
+  "warning": "exploratory; target previously observed; exact duplicates grouped; near duplicates or shared scenes can remain"
+}

@@ -1,0 +1,30 @@
+{
+  "full_candidate_classes": 28,
+  "full_observed_classes": 27,
+  "full_boxes": 452,
+  "full_parent_images": 236,
+  "retained_mapping_classes": 23,
+  "retained_observed_classes": 22,
+  "retained_boxes": 362,
+  "retained_parent_images": 189,
+  "excluded_indices": [
+    1,
+    4,
+    8,
+    9,
+    24
+  ],
+  "excluded_names": [
+    "Apple rust leaf",
+    "Bell_pepper leaf spot",
+    "Corn leaf blight",
+    "Corn rust leaf",
+    "Tomato leaf yellow virus"
+  ],
+  "filter_rule": "Filter on ground-truth labels only. Preserve original 28 output probabilities and all predictions; predictions into excluded classes remain incorrect. No retraining, class-column removal, renormalization, or temperature refit.",
+  "interpretation": "Names are more specific under this mapping; pathogen identities have not been independently established. Different subsets have different class/sample composition.",
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 20261123,
+  "bootstrap_unit": "Original parent image; sample 236 images with replacement, include all associated boxes, then apply fixed subset filter.",
+  "interval": "Paired parent-image cluster bootstrap, percentile 95%; conditional on trained model and observed dataset, not a training-seed interval."
+}

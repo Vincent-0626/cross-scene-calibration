@@ -1,0 +1,884 @@
+[
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/queue.history",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\queue.history",
+    "bytes": 764,
+    "mtime": 1795470530,
+    "sha256": "5f0c2482756550bd7344da5afbcd2486967e07afce07f9539be56935227febde"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/alis/seed_2026/COMPLETE",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\alis\\seed_2026\\COMPLETE",
+    "bytes": 9,
+    "mtime": 1795455200,
+    "sha256": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/alis/seed_2026/result.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\alis\\seed_2026\\result.json",
+    "bytes": 5493,
+    "mtime": 1795455200,
+    "sha256": "44af7c0d7e1f537aaaffc9a578ea9f6064778e54a0d70c14e663c5fda649bb87"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/alis/seed_2026/config.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\alis\\seed_2026\\config.json",
+    "bytes": 2342,
+    "mtime": 1795454912,
+    "sha256": "c195409979414b62546f777c9bb156d56b6b72d99a01dd4400a1956c86e0dfbc"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/alis/seed_2026/epochs.csv",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\alis\\seed_2026\\epochs.csv",
+    "bytes": 1339,
+    "mtime": 1795455168,
+    "sha256": "ec97169949918dad85d15f6191d2fe8ca289a731c0853be5baef491065963ca2"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/alis/seed_2026/logits.npz",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\alis\\seed_2026\\logits.npz",
+    "bytes": 1206979,
+    "mtime": 1795455200,
+    "sha256": "52fdcb6d344346fed6124fb7bd67693ea973ad2928e56f09789c6b78f3299ec1"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/alis/seed_7/COMPLETE",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\alis\\seed_7\\COMPLETE",
+    "bytes": 9,
+    "mtime": 1795428038,
+    "sha256": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/alis/seed_7/result.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\alis\\seed_7\\result.json",
+    "bytes": 5473,
+    "mtime": 1795428038,
+    "sha256": "6659669bafed9ce13015f7ba245a25c4ed4609b3f35b3c1f2b1121d60ec9649c"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/alis/seed_7/config.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\alis\\seed_7\\config.json",
+    "bytes": 2339,
+    "mtime": 1795427610,
+    "sha256": "39d279318ac3cd8db0461c5151ca651e2682d36b8ca335dc6975a1dfd3d3511c"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/alis/seed_7/epochs.csv",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\alis\\seed_7\\epochs.csv",
+    "bytes": 1969,
+    "mtime": 1795428005,
+    "sha256": "469a2a13b5e2b6b576810655bef9be24838cec810258b9958ac4dcc91fe9a277"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/alis/seed_7/logits.npz",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\alis\\seed_7\\logits.npz",
+    "bytes": 1205094,
+    "mtime": 1795428038,
+    "sha256": "97f1eb9ebc586f737c6a19a37f9b0233fa2877a2dbd12ad86a6c5755634d91e0"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/baseline/seed_2026/COMPLETE",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\baseline\\seed_2026\\COMPLETE",
+    "bytes": 9,
+    "mtime": 1795454445,
+    "sha256": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/baseline/seed_2026/result.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\baseline\\seed_2026\\result.json",
+    "bytes": 3473,
+    "mtime": 1795454445,
+    "sha256": "35b94ad70baf4e520a2a5a50b03811a9ee266efeb76856819af8654eec9a4612"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/baseline/seed_2026/config.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\baseline\\seed_2026\\config.json",
+    "bytes": 1606,
+    "mtime": 1795454298,
+    "sha256": "c1b28f6cd95b428c26d93f7a1f919cf6cfa54adb54271ca60b92c2bf4f1c3654"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/baseline/seed_2026/epochs.csv",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\baseline\\seed_2026\\epochs.csv",
+    "bytes": 2298,
+    "mtime": 1795454412,
+    "sha256": "c540a56d282306d0dab7948b08a9acfbab2790afc476cbde9d83667736f5a137"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/baseline/seed_2026/logits.npz",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\baseline\\seed_2026\\logits.npz",
+    "bytes": 1203768,
+    "mtime": 1795454445,
+    "sha256": "22915c4f0372552a803a30de807136cbc968bb5c9e8fcbbbac3e5004e30122e5"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/baseline/seed_7/COMPLETE",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\baseline\\seed_7\\COMPLETE",
+    "bytes": 9,
+    "mtime": 1795427220,
+    "sha256": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/baseline/seed_7/result.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\baseline\\seed_7\\result.json",
+    "bytes": 3496,
+    "mtime": 1795427220,
+    "sha256": "c1349268d809a67667a608e15975a14f166b419f05183a8b44fee66e92e62ed3"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/baseline/seed_7/config.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\baseline\\seed_7\\config.json",
+    "bytes": 1603,
+    "mtime": 1795427125,
+    "sha256": "995c25e98364a7b8cd97d412a105b9a9ba44f3523d522d65df916fd07b430dfb"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/baseline/seed_7/epochs.csv",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\baseline\\seed_7\\epochs.csv",
+    "bytes": 1254,
+    "mtime": 1795427187,
+    "sha256": "ea45f17b8f8fdb75f1a4a1b880246a02d7e234f599ec5afda01de93afb82178d"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/baseline/seed_7/logits.npz",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\baseline\\seed_7\\logits.npz",
+    "bytes": 1215318,
+    "mtime": 1795427220,
+    "sha256": "0343b0bb0575de7865417efa51f3e1ee997fc380a5088cbac728e1de316246a6"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/augmix/seed_2026/COMPLETE",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\augmix\\seed_2026\\COMPLETE",
+    "bytes": 9,
+    "mtime": 1795454744,
+    "sha256": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/augmix/seed_2026/result.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\augmix\\seed_2026\\result.json",
+    "bytes": 3635,
+    "mtime": 1795454744,
+    "sha256": "0804260cf493d958c4b18df95167bccdff7ba5296748531c5e72f2ea9a42ec46"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/augmix/seed_2026/config.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\augmix\\seed_2026\\config.json",
+    "bytes": 1632,
+    "mtime": 1795454451,
+    "sha256": "d51769a3bedd2efeab495ae999731db95126a2d5425f5d54d0bbeb773912156d"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/augmix/seed_2026/epochs.csv",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\augmix\\seed_2026\\epochs.csv",
+    "bytes": 2179,
+    "mtime": 1795454724,
+    "sha256": "0da08aba890a7efa5fcf089ec2de78df7ed3597907fda34918b20a9aca65719a"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/augmix/seed_2026/logits.npz",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\augmix\\seed_2026\\logits.npz",
+    "bytes": 1198263,
+    "mtime": 1795454744,
+    "sha256": "ae5f065abc528df8c00feac398af9146cc7f527efb8761597a7ad46d33eecde0"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/augmix/seed_7/COMPLETE",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\augmix\\seed_7\\COMPLETE",
+    "bytes": 9,
+    "mtime": 1795427473,
+    "sha256": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/augmix/seed_7/result.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\augmix\\seed_7\\result.json",
+    "bytes": 3591,
+    "mtime": 1795427473,
+    "sha256": "e83f94f367e201e4943b3f512559c66e6d7b0714af0caf7f888782e6388cdff2"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/augmix/seed_7/config.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\augmix\\seed_7\\config.json",
+    "bytes": 1629,
+    "mtime": 1795427226,
+    "sha256": "e2d7731e9c2da26cd6bd6b7407e1d86bc5825190da86d02d64b83b137ab6657d"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/augmix/seed_7/epochs.csv",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\augmix\\seed_7\\epochs.csv",
+    "bytes": 1780,
+    "mtime": 1795427450,
+    "sha256": "f2a2663e20ce09761d199501621f8171c245a78f4d97251cd104a361da603a6c"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/augmix/seed_7/logits.npz",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\augmix\\seed_7\\logits.npz",
+    "bytes": 1203718,
+    "mtime": 1795427473,
+    "sha256": "1d9dbc379376d658931f9751d3d66fd0733c1b561fc5f69569d04f1f524bea95"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/ls_entropy/seed_2026/COMPLETE",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\ls_entropy\\seed_2026\\COMPLETE",
+    "bytes": 9,
+    "mtime": 1795454906,
+    "sha256": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/ls_entropy/seed_2026/result.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\ls_entropy\\seed_2026\\result.json",
+    "bytes": 3647,
+    "mtime": 1795454906,
+    "sha256": "8f9a2c8cf43332ea5e2d73af0e5a3dadd957dff4f2cc5ed04ddfc31d8f2d323e"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/ls_entropy/seed_2026/config.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\ls_entropy\\seed_2026\\config.json",
+    "bytes": 1613,
+    "mtime": 1795454751,
+    "sha256": "87c964bdd79718c81aacd9769b8531b830ce04b3c8454757c437faf105da6ffd"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/ls_entropy/seed_2026/epochs.csv",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\ls_entropy\\seed_2026\\epochs.csv",
+    "bytes": 2401,
+    "mtime": 1795454872,
+    "sha256": "dcaefa504bfe514b8df27c15b8f665221e42d85aa0191613e00b4d49f95983c1"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/ls_entropy/seed_2026/logits.npz",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\ls_entropy\\seed_2026\\logits.npz",
+    "bytes": 1198893,
+    "mtime": 1795454906,
+    "sha256": "c6df60cce8dad943ce4a7f40497d9a0c0eeed508d8f30900d8295676af708543"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/ls_entropy/seed_7/COMPLETE",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\ls_entropy\\seed_7\\COMPLETE",
+    "bytes": 9,
+    "mtime": 1795427604,
+    "sha256": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/ls_entropy/seed_7/result.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\ls_entropy\\seed_7\\result.json",
+    "bytes": 3647,
+    "mtime": 1795427604,
+    "sha256": "dbfb18b13bca33732723dfdc3474cc419733a19c9f0bfb0a9dc25f7662e9755e"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/ls_entropy/seed_7/config.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\ls_entropy\\seed_7\\config.json",
+    "bytes": 1610,
+    "mtime": 1795427481,
+    "sha256": "c56f9d288360d9be48455bb6a92e4044c05f0fd3eb0e7cfcaef45e1820f27f35"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/ls_entropy/seed_7/epochs.csv",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\ls_entropy\\seed_7\\epochs.csv",
+    "bytes": 1759,
+    "mtime": 1795427570,
+    "sha256": "ae5fbf7dceb0fc8a8a5bb678b6b80d74ef6c27f1655bd3f0f0c1e8311e646bde"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/office/ls_entropy/seed_7/logits.npz",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\office\\ls_entropy\\seed_7\\logits.npz",
+    "bytes": 1206933,
+    "mtime": 1795427604,
+    "sha256": "44be0fb2a9aeda2dcb190afa23052736d842e1f3a4619ea919089beb00289a49"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/alis.py",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\alis.py",
+    "bytes": 12456,
+    "mtime": 1795414038,
+    "sha256": "6853e3cf088c4cf3301cd31a123b561563ee6da3e63a2656a6cc47cfbadc3c9a"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/ls_entropy.py",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\ls_entropy.py",
+    "bytes": 11016,
+    "mtime": 1795414038,
+    "sha256": "d5637ec9933f3429059e5efc8daffb1ad4bc3518d026b5f336c1178500857fbf"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/alis/seed_2026/COMPLETE",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\alis\\seed_2026\\COMPLETE",
+    "bytes": 9,
+    "mtime": 1795470468,
+    "sha256": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/alis/seed_2026/result.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\alis\\seed_2026\\result.json",
+    "bytes": 5176,
+    "mtime": 1795470468,
+    "sha256": "c67c0803dbfc473ccedcfff36e3c1d9b3c9fce0490d18b1c1ad32320da5ece8e"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/alis/seed_2026/config.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\alis\\seed_2026\\config.json",
+    "bytes": 1560,
+    "mtime": 1795466304,
+    "sha256": "0c97dc1c34418dec7133c61e508d34e3200c87a043c04f15e5189a7f718f5555"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/alis/seed_2026/epochs.csv",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\alis\\seed_2026\\epochs.csv",
+    "bytes": 1042,
+    "mtime": 1795470412,
+    "sha256": "4af51495b28f1a56c508122880dfccda9e2eeeddf9c6c79cda1a745ca13d41ca"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/alis/seed_2026/logits.npz",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\alis\\seed_2026\\logits.npz",
+    "bytes": 3660058,
+    "mtime": 1795470468,
+    "sha256": "66d8b8b7538c643cc58534725364dcf525f7097ecbe5b022b868e2572efbcb1b"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/alis/seed_7/COMPLETE",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\alis\\seed_7\\COMPLETE",
+    "bytes": 9,
+    "mtime": 1795446013,
+    "sha256": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/alis/seed_7/result.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\alis\\seed_7\\result.json",
+    "bytes": 5184,
+    "mtime": 1795446013,
+    "sha256": "f21d6a3f66ee4adad20c604feea77e9854cc82e5ded0589dc1d7c563c514f4d3"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/alis/seed_7/config.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\alis\\seed_7\\config.json",
+    "bytes": 1557,
+    "mtime": 1795441461,
+    "sha256": "39e11209a5c1e8ea9e69b945cfcac13d02000b8e2d10b160ccfdee7741be11bb"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/alis/seed_7/epochs.csv",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\alis\\seed_7\\epochs.csv",
+    "bytes": 1147,
+    "mtime": 1795445953,
+    "sha256": "895db19eba203c39d658cc0465dc8ea3933c3976e49aeeb73984f6dde0c18d0f"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/alis/seed_7/logits.npz",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\alis\\seed_7\\logits.npz",
+    "bytes": 3647880,
+    "mtime": 1795446013,
+    "sha256": "d7317a22ba1b4dc96cbdc068d66ba27bf1dc6a3c6d757a2da95bdc8dbc8d7863"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/baseline/seed_2026/COMPLETE",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\baseline\\seed_2026\\COMPLETE",
+    "bytes": 9,
+    "mtime": 1795457244,
+    "sha256": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/baseline/seed_2026/result.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\baseline\\seed_2026\\result.json",
+    "bytes": 3144,
+    "mtime": 1795457244,
+    "sha256": "ccb18b695d6bf53ae4a2ebf595d2a4fafa4f59022da3865024164d40da67f7cb"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/baseline/seed_2026/config.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\baseline\\seed_2026\\config.json",
+    "bytes": 824,
+    "mtime": 1795455208,
+    "sha256": "c30f2561758821c33546388355fca8d989c26ca5253a699aa94c0d0e0f58e079"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/baseline/seed_2026/epochs.csv",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\baseline\\seed_2026\\epochs.csv",
+    "bytes": 1556,
+    "mtime": 1795457185,
+    "sha256": "315e302fae9ffd4270c4eae029c3e3c563c5346a51749affbc0ef476a8472e3b"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/baseline/seed_2026/logits.npz",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\baseline\\seed_2026\\logits.npz",
+    "bytes": 3714420,
+    "mtime": 1795457244,
+    "sha256": "607b70f00673dc6a7bb2fd95a43245f682e68e9cbeb7b64693db89007fc2f68d"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/baseline/seed_7/COMPLETE",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\baseline\\seed_7\\COMPLETE",
+    "bytes": 9,
+    "mtime": 1795429541,
+    "sha256": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/baseline/seed_7/result.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\baseline\\seed_7\\result.json",
+    "bytes": 3176,
+    "mtime": 1795429541,
+    "sha256": "d626dd4ec9e370bf0e2a7c37bbfbb0622f9a8cf7cd5367745d5c7a2a5811245e"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/baseline/seed_7/config.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\baseline\\seed_7\\config.json",
+    "bytes": 821,
+    "mtime": 1795428046,
+    "sha256": "a6dcc0a60ec1b378fe24869515d67cc288e939037e8111348a79efca71bf96ba"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/baseline/seed_7/epochs.csv",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\baseline\\seed_7\\epochs.csv",
+    "bytes": 1147,
+    "mtime": 1795429484,
+    "sha256": "e0a1b9cf681b07559809b5b1cb3af01a22e9f3832a1b49cfb0557ac97c99e406"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/baseline/seed_7/logits.npz",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\baseline\\seed_7\\logits.npz",
+    "bytes": 3732528,
+    "mtime": 1795429541,
+    "sha256": "0680f388f30e8e9165c5f06f9490e6b73ebaecc63b178b3c9c26e7f60078acaa"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/augmix/seed_2026/COMPLETE",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\augmix\\seed_2026\\COMPLETE",
+    "bytes": 9,
+    "mtime": 1795464080,
+    "sha256": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/augmix/seed_2026/result.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\augmix\\seed_2026\\result.json",
+    "bytes": 3410,
+    "mtime": 1795464080,
+    "sha256": "28def07901c6d3512b985509aa17106e4e3a66b64ea39db626412d24e48eeff5"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/augmix/seed_2026/config.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\augmix\\seed_2026\\config.json",
+    "bytes": 850,
+    "mtime": 1795457343,
+    "sha256": "5b1775fcb01f2cd1dde05dcf21a336f9960008fb93aa9594e51bff6ef52fe1a2"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/augmix/seed_2026/epochs.csv",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\augmix\\seed_2026\\epochs.csv",
+    "bytes": 1806,
+    "mtime": 1795464035,
+    "sha256": "4c8137d3983a294deb51f3e72fab85396a762807a584e67d59ad97566f312343"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/augmix/seed_2026/logits.npz",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\augmix\\seed_2026\\logits.npz",
+    "bytes": 3692944,
+    "mtime": 1795464080,
+    "sha256": "0f6c6e9496f1c0a36b44974a384bb255b25c7a7ddad70aee25df5ea1d456a2e2"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/augmix/seed_7/COMPLETE",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\augmix\\seed_7\\COMPLETE",
+    "bytes": 9,
+    "mtime": 1795433309,
+    "sha256": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/augmix/seed_7/result.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\augmix\\seed_7\\result.json",
+    "bytes": 3313,
+    "mtime": 1795433309,
+    "sha256": "f204dd0a29502cf2e0dbe122a28be752926bb9a299c481ea2d1b1e4f2f35e1e9"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/augmix/seed_7/config.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\augmix\\seed_7\\config.json",
+    "bytes": 847,
+    "mtime": 1795429639,
+    "sha256": "bb03099945701fcc8387163efbc753570f62d743b240338c9754f2616a17934c"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/augmix/seed_7/epochs.csv",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\augmix\\seed_7\\epochs.csv",
+    "bytes": 1021,
+    "mtime": 1795433261,
+    "sha256": "d8aa3165ed4164c91fde3244bc0ea6f44420693bba22eb161d04131db35eddbe"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/augmix/seed_7/logits.npz",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\augmix\\seed_7\\logits.npz",
+    "bytes": 3702965,
+    "mtime": 1795433309,
+    "sha256": "2a84fd0bf2c4b6c53825ca2e0f769cd5a67fcf36106ddb6bff06804dad007d26"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/ls_entropy/seed_2026/COMPLETE",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\ls_entropy\\seed_2026\\COMPLETE",
+    "bytes": 9,
+    "mtime": 1795466205,
+    "sha256": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/ls_entropy/seed_2026/result.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\ls_entropy\\seed_2026\\result.json",
+    "bytes": 3421,
+    "mtime": 1795466205,
+    "sha256": "5543cc912abda92c07e17f82654f7229028394fdd9c5b715ac4222fb26a291b0"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/ls_entropy/seed_2026/config.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\ls_entropy\\seed_2026\\config.json",
+    "bytes": 831,
+    "mtime": 1795464169,
+    "sha256": "c2f1918fdfb6fe4ba3550f5bfeff5eda5d978536730e4f96bb5d16c45c2feb8e"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/ls_entropy/seed_2026/epochs.csv",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\ls_entropy\\seed_2026\\epochs.csv",
+    "bytes": 1533,
+    "mtime": 1795466148,
+    "sha256": "abfdb60b88ecae3f20d374275164c6ab6b03c64de09c9ed79fec47d7e10165cc"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/ls_entropy/seed_2026/logits.npz",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\ls_entropy\\seed_2026\\logits.npz",
+    "bytes": 3642180,
+    "mtime": 1795466205,
+    "sha256": "a4d2058ac4b93de6ae3710594173a2b8bea122d0a663f3d7c9c8e6dd79665ab5"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/ls_entropy/seed_7/COMPLETE",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\ls_entropy\\seed_7\\COMPLETE",
+    "bytes": 9,
+    "mtime": 1795435612,
+    "sha256": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/ls_entropy/seed_7/result.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\ls_entropy\\seed_7\\result.json",
+    "bytes": 3425,
+    "mtime": 1795435612,
+    "sha256": "18bdba119bd166bf19f1d7cf70b263d4c898755cd13ccac96a4d2f73c05ae2ef"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/ls_entropy/seed_7/config.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\ls_entropy\\seed_7\\config.json",
+    "bytes": 828,
+    "mtime": 1795433399,
+    "sha256": "412ebdf36d220dfe0dd266ccb6060da134653890793d6c3a0851c29e00f3332e"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/ls_entropy/seed_7/epochs.csv",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\ls_entropy\\seed_7\\epochs.csv",
+    "bytes": 1669,
+    "mtime": 1795435556,
+    "sha256": "0fcd43acac16d5b26ec7eab136d212fbb67ccbc11916164e5d57039c4390ac41"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/visda/ls_entropy/seed_7/logits.npz",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\visda\\ls_entropy\\seed_7\\logits.npz",
+    "bytes": 3648015,
+    "mtime": 1795435612,
+    "sha256": "3ba890420742320bbcd669cb1a0babeb5bffa5b6291794a754f4781b140b91a7"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/augmix.py",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\augmix.py",
+    "bytes": 11917,
+    "mtime": 1795423788,
+    "sha256": "c9e030d76006ffbaf7b0cf562dde653483f8e172158860055dfe4e71c07a957c"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/alis/seed_2026/COMPLETE",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\alis\\seed_2026\\COMPLETE",
+    "bytes": 9,
+    "mtime": 1795454292,
+    "sha256": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/alis/seed_2026/result.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\alis\\seed_2026\\result.json",
+    "bytes": 5160,
+    "mtime": 1795454292,
+    "sha256": "eea768485a94ea7a06cd65a1664c9fd795c2d92c76d19a04f40dc997434cc761"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/alis/seed_2026/config.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\alis\\seed_2026\\config.json",
+    "bytes": 2119,
+    "mtime": 1795449942,
+    "sha256": "e7e3a61b4ae7d11fcfadd9729230caea5732fef7c97059909a448c0b2a2fa72d"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/alis/seed_2026/epochs.csv",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\alis\\seed_2026\\epochs.csv",
+    "bytes": 2574,
+    "mtime": 1795454285,
+    "sha256": "00b831fd760bd56a59977f0e79458abc51db0cd9de45fee023dea9dd660c7ee6"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/alis/seed_2026/logits.npz",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\alis\\seed_2026\\logits.npz",
+    "bytes": 621972,
+    "mtime": 1795454292,
+    "sha256": "a5ffb94809899cfb52e50a973b7b4f705af574e8685e3d907b7aaac65a326e57"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/alis/seed_7/COMPLETE",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\alis\\seed_7\\COMPLETE",
+    "bytes": 9,
+    "mtime": 1795427119,
+    "sha256": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/alis/seed_7/result.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\alis\\seed_7\\result.json",
+    "bytes": 5038,
+    "mtime": 1795427119,
+    "sha256": "a36ee31e8846b6a33572624f861f5ee37ad90c86c31e7eef94d626850308870c"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/alis/seed_7/config.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\alis\\seed_7\\config.json",
+    "bytes": 2116,
+    "mtime": 1795424258,
+    "sha256": "ef778ba1efc38c76f6de6a5d0d4a758508e1cf9a2bf832fba8478204e64891b6"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/alis/seed_7/epochs.csv",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\alis\\seed_7\\epochs.csv",
+    "bytes": 1689,
+    "mtime": 1795427112,
+    "sha256": "f92018a06c33e18220aa84d29e1e52d81e2c88880de1b00d2f3dffe20fec179d"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/alis/seed_7/logits.npz",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\alis\\seed_7\\logits.npz",
+    "bytes": 628830,
+    "mtime": 1795427119,
+    "sha256": "6e7e7a6c3deb5c87b68dffaa050b4c1379d89c2118856f5b8232dd6c0f7b5d77"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/baseline/seed_2026/COMPLETE",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\baseline\\seed_2026\\COMPLETE",
+    "bytes": 9,
+    "mtime": 1795446894,
+    "sha256": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/baseline/seed_2026/result.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\baseline\\seed_2026\\result.json",
+    "bytes": 2929,
+    "mtime": 1795446894,
+    "sha256": "b47d6aa27fddd74e9e276c1b6598767c5e869f89d3b326cc060020fc11546af8"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/baseline/seed_2026/config.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\baseline\\seed_2026\\config.json",
+    "bytes": 1383,
+    "mtime": 1795446083,
+    "sha256": "f34e56c3e4ff7125fc4fb49657d3f8351364534b9b9a0512c6d5366cca9427d5"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/baseline/seed_2026/epochs.csv",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\baseline\\seed_2026\\epochs.csv",
+    "bytes": 1983,
+    "mtime": 1795446887,
+    "sha256": "f39b16286641a7b7b6c3f943d396f4c07b63e9c2dd510e5647c371efa2608843"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/baseline/seed_2026/logits.npz",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\baseline\\seed_2026\\logits.npz",
+    "bytes": 634210,
+    "mtime": 1795446894,
+    "sha256": "0f3c9a8d472abf8790092877d4c6076e621239c1a4504b783fabf419ce43a44b"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/baseline/seed_7/COMPLETE",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\baseline\\seed_7\\COMPLETE",
+    "bytes": 9,
+    "mtime": 1795415119,
+    "sha256": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/baseline/seed_7/result.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\baseline\\seed_7\\result.json",
+    "bytes": 3100,
+    "mtime": 1795415119,
+    "sha256": "bb9d28e8b1acf5087b22df09e861a7a0a2b86342a972688db2c266ec920d20e4"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/baseline/seed_7/config.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\baseline\\seed_7\\config.json",
+    "bytes": 1380,
+    "mtime": 1795414428,
+    "sha256": "afd077892d6efccc5aa324f08c19f6bc4f7210c12511f7ada45511027cc1463d"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/baseline/seed_7/epochs.csv",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\baseline\\seed_7\\epochs.csv",
+    "bytes": 1690,
+    "mtime": 1795415112,
+    "sha256": "5d44e532cce45d41285b811905334e7a0283ecff1a2316d52d0a4f551a844fa9"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/baseline/seed_7/logits.npz",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\baseline\\seed_7\\logits.npz",
+    "bytes": 634460,
+    "mtime": 1795415119,
+    "sha256": "6b15930fa65d1d26128c8a4b6e417d88966251afd508a9d1072dba02d1741a5e"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/augmix/seed_2026/COMPLETE",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\augmix\\seed_2026\\COMPLETE",
+    "bytes": 9,
+    "mtime": 1795449550,
+    "sha256": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/augmix/seed_2026/result.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\augmix\\seed_2026\\result.json",
+    "bytes": 3089,
+    "mtime": 1795449550,
+    "sha256": "043c0fdd4fbc85a6b9cb5042c8bd5afda6fec3f0461124a17b23cd42902bfd9f"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/augmix/seed_2026/config.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\augmix\\seed_2026\\config.json",
+    "bytes": 1409,
+    "mtime": 1795446902,
+    "sha256": "6566f08dc5beb382ab0b0799b2143c192937ded43959acc2ddff6591a255cec0"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/augmix/seed_2026/epochs.csv",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\augmix\\seed_2026\\epochs.csv",
+    "bytes": 2728,
+    "mtime": 1795449544,
+    "sha256": "e25fc890660bc0abf8a649dff596ac4c375fca1e351dd6c597783abf4eb31cea"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/augmix/seed_2026/logits.npz",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\augmix\\seed_2026\\logits.npz",
+    "bytes": 635160,
+    "mtime": 1795449550,
+    "sha256": "07c58082882c6bfdc184966d19ed053933c26ac54e5a95923cef7bf7eb4e1b34"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/augmix/seed_7/COMPLETE",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\augmix\\seed_7\\COMPLETE",
+    "bytes": 9,
+    "mtime": 1795423485,
+    "sha256": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/augmix/seed_7/result.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\augmix\\seed_7\\result.json",
+    "bytes": 2788,
+    "mtime": 1795423485,
+    "sha256": "58dd401188ffe96092541ed879752079c6677ffe133e4da2dc86f82b5d4f52f5"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/augmix/seed_7/config.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\augmix\\seed_7\\config.json",
+    "bytes": 1378,
+    "mtime": 1795415126,
+    "sha256": "43fe92200ef64ae61776ab70e991b3c4e59dff7384490015a4a9fc3d99248a04"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/augmix/seed_7/epochs.csv",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\augmix\\seed_7\\epochs.csv",
+    "bytes": 4482,
+    "mtime": 1795423478,
+    "sha256": "13cef7ff0fe4295f1537a0fc0dea10c786ca9635b6fae8d87c678d479afde856"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/augmix/seed_7/logits.npz",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\augmix\\seed_7\\logits.npz",
+    "bytes": 632055,
+    "mtime": 1795423485,
+    "sha256": "535695ab1edc4316fb7232704b1c423039b206725bd03bc721b48e20053a5e8a"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/ls_entropy/seed_2026/COMPLETE",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\ls_entropy\\seed_2026\\COMPLETE",
+    "bytes": 9,
+    "mtime": 1795449935,
+    "sha256": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/ls_entropy/seed_2026/result.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\ls_entropy\\seed_2026\\result.json",
+    "bytes": 3379,
+    "mtime": 1795449935,
+    "sha256": "38a7fda35831236d0a17b36141ac30265c8395c6c60493100cbabb56d91bb481"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/ls_entropy/seed_2026/config.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\ls_entropy\\seed_2026\\config.json",
+    "bytes": 1390,
+    "mtime": 1795449559,
+    "sha256": "4f5e1ca1c330b94e888aecd86574958ca57675a3425fdbc3773eacb0da716317"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/ls_entropy/seed_2026/epochs.csv",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\ls_entropy\\seed_2026\\epochs.csv",
+    "bytes": 975,
+    "mtime": 1795449928,
+    "sha256": "6332e842d56341edc46a7f15a25534766f36b2017fa200093db63b75ca3e2b0c"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/ls_entropy/seed_2026/logits.npz",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\ls_entropy\\seed_2026\\logits.npz",
+    "bytes": 640483,
+    "mtime": 1795449935,
+    "sha256": "983bf13b0e2adf4055eec63cbcfe7a83814db0a8a9c6c119ef2ea9f386c2c3fe"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/ls_entropy/seed_7/COMPLETE",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\ls_entropy\\seed_7\\COMPLETE",
+    "bytes": 9,
+    "mtime": 1795424251,
+    "sha256": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/ls_entropy/seed_7/result.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\ls_entropy\\seed_7\\result.json",
+    "bytes": 3234,
+    "mtime": 1795424251,
+    "sha256": "3960190a9fb33dd22d212798fb25c4d96e62dbe3830ec2db4cb3c3add35d80a3"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/ls_entropy/seed_7/config.json",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\ls_entropy\\seed_7\\config.json",
+    "bytes": 1387,
+    "mtime": 1795423492,
+    "sha256": "7c13998ff225a70291f123bb13c098d12c09296ed4f5987d88c2de48f7052d21"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/ls_entropy/seed_7/epochs.csv",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\ls_entropy\\seed_7\\epochs.csv",
+    "bytes": 1814,
+    "mtime": 1795424243,
+    "sha256": "9d3fb60af1eeb340210f085825de1e97d1d8ff5e99fa9b5054def18ddc68d93c"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/plant/ls_entropy/seed_7/logits.npz",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\plant\\ls_entropy\\seed_7\\logits.npz",
+    "bytes": 627560,
+    "mtime": 1795424251,
+    "sha256": "8333c71be582861aff78bb08be415f30ff2c0979d7b0aed5603f5ada4f00318b"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/baseline.py",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\baseline.py",
+    "bytes": 10988,
+    "mtime": 1795414038,
+    "sha256": "51c18d198dca8e61ddce9bdda50dc97fe2302ed3d26b95c525be6179959a1885"
+  },
+  {
+    "remote": "/root/cross_scene_20261120/dac_augmix/seed_repeats/queue.status",
+    "local": "F:\\desktop\\毕设\\论文增强修订_2026-11-23\\data\\dac_augmix\\seed_repeats\\queue.status",
+    "bytes": 29,
+    "mtime": 1795466296,
+    "sha256": "ee6d9b0ddadb3eb24c8261b6a553ad563e05544e892186f5adfb51ac7b38af2a"
+  }
+]
